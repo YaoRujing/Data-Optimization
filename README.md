@@ -65,7 +65,6 @@ If you find our survey useful, please kindly cite our paper:
                                               
 
 # Introduction
-# Introduction
 1. **Data collection and quality challenges in deep learning: A data-centric ai perspective.**<br>
 *Whang, Steven Euijong and Roh, Yuji and Song, Hwanjun and Lee, Jae-Gil.*<br>
 The VLDB Journal 2023. [[Paper](https://link.springer.com/article/10.1007/s00778-022-00775-9)]
