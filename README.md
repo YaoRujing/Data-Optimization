@@ -3,8 +3,12 @@
 
 If you find our survey useful, please kindly cite our paper:
 
-```
-
+```bibtex
+@article{wu2023data,
+      title={Data Optimization in Deep Learning: A Survey}, 
+      author={Wu, Ou and Yao, Rujing},
+      year={2023}
+}
 ```
 
 **📝 Table of Contents**
@@ -60,6 +64,7 @@ If you find our survey useful, please kindly cite our paper:
   - [Data optimization agent](#data-optimization-agent) 
                                               
 
+# Introduction
 # Introduction
 1. **Data collection and quality challenges in deep learning: A data-centric ai perspective.**<br>
 *Whang, Steven Euijong and Roh, Yuji and Song, Hwanjun and Lee, Jae-Gil.*<br>
@@ -122,762 +127,760 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2207.14443)]
 20. **Generalizing from a Few Examples: A Survey on Few-shot Learning.**<br>
 *Wang, Yaqing and Yao, Quanming and Kwok, James T. and Ni, Lionel M.*<br>
 ACM computing surveys 2021. [[Paper](https://dl.acm.org/doi/10.1145/3386252)]
-8. **Learning under concept drift: A review.**<br>
+21. **Learning under concept drift: A review.**<br>
 *Lu, Jie and Liu, Anjin and Dong, Fan and Gu, Feng and Gama, Joao and Zhang, Guangquan.*<br>
 TKDE 2018. [[Paper](https://ieeexplore.ieee.org/abstract/document/8496795)]
-21. **Recent Advances in Concept Drift Adaptation Methods for Deep Learning.**<br>
+22. **Recent Advances in Concept Drift Adaptation Methods for Deep Learning.**<br>
 *Yuan, Liheng and Li, Heng and Xia, Beihao and Gao, Cuiying and Liu, Mingyue and Yuan, Wei and You, Xinge.*<br>
 IJCAI 2022. [[Paper](https://www.ijcai.org/proceedings/2022/0788.pdf)]
-22. **Adaptive dendritic cell-deep learning approach for industrial prognosis under changing conditions.**<br>
+23. **Adaptive dendritic cell-deep learning approach for industrial prognosis under changing conditions.**<br>
 *Diez-Olivan, Alberto and Ortego, Patxi and Del Ser, Javier and Landa-Torres, Itziar and Galar, Diego and Camacho, David and Sierra, Basilio.*<br>
 IEEE Transactions on Industrial Informatics 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9352529)]
-23. **A survey on concept drift adaptation.**<br>
+24. **A survey on concept drift adaptation.**<br>
 *Gama, Jo{\~a}o and {\v{Z}}liobait{\.e}, Indr{\.e} and Bifet, Albert and Pechenizkiy, Mykola and Bouchachia, Abdelhamid.*<br>
 ACM computing surveys 2014. [[Paper](https://dl.acm.org/doi/abs/10.1145/2523813)]
-24. **An overview on concept drift learning.**<br>
+25. **An overview on concept drift learning.**<br>
 *Iwashita, Adriana Sayuri and Papa, Joao Paulo.*<br>
 IEEE access 2018. [[Paper](https://ieeexplore.ieee.org/abstract/document/8571222)]
-25. **Opportunities and challenges in deep learning adversarial robustness: A survey.**<br>
+26. **Opportunities and challenges in deep learning adversarial robustness: A survey.**<br>
 *Silva, Samuel Henrique and Najafirad, Peyman.*<br>
 arXiv 2020. [[Paper](https://arxiv.org/abs/2007.00753)]
-26. **Robustness of deep learning models on graphs: A survey.**<br>
+27. **Robustness of deep learning models on graphs: A survey.**<br>
 *Xu, Jiarong and Chen, Junru and You, Siqi and Xiao, Zhiqing and Yang, Yang and Lu, Jiangang.*<br>
 AI Open 2021. [[Paper](https://www.sciencedirect.com/science/article/pii/S2666651021000139)]
-27. **A survey of adversarial defenses and robustness in nlp.**<br>
+28. **A survey of adversarial defenses and robustness in nlp.**<br>
 *Goyal, Shreya and Doddapaneni, Sumanth and Khapra, Mitesh M and Ravindran, Balaraman.*<br>
 ACM Computing Surveys 2023. [[Paper](https://dl.acm.org/doi/abs/10.1145/3593042)]
-28. **A survey on bias and fairness in machine learning.**<br>
+29. **A survey on bias and fairness in machine learning.**<br>
 *Mehrabi, Ninareh and Morstatter, Fred and Saxena, Nripsuta and Lerman, Kristina and Galstyan, Aram.*<br>
 ACM computing surveys 2021. [[Paper](https://dl.acm.org/doi/abs/10.1145/3457607)]
-29. **FAIR: Fair adversarial instance re-weighting.**<br>
+30. **FAIR: Fair adversarial instance re-weighting.**<br>
 *Petrovi{\'c}, Andrija and Nikoli{\'c}, Mladen and Radovanovi{\'c}, Sandro and Deliba{\v{s}}i{\'c}, Boris and Jovanovi{\'c}, Milo{\v{s}}.*<br>
 Neurocomputing 2022. [[Paper](https://www.sciencedirect.com/science/article/pii/S0925231221019408?casa_token=zl0smR7i06AAAAAA:ybSefSP57QrNHVMLB9lb4rTQLCubIPA2Ggnh87bSC3Dv4faAC4f2zg5a38HQwA-6OyDUVpIK4C4)]
-30. **Trustworthiness of autonomous systems.**<br>
+31. **Trustworthiness of autonomous systems.**<br>
 *Devitt, S.*<br>
 Foundations of trusted autonomy 2018. [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-64816-3_9)]
-31. **Trustworthy artificial intelligence: a review.**<br>
+32. **Trustworthy artificial intelligence: a review.**<br>
 *Kaur, Davinder and Uslu, Suleyman and Rittichier, Kaley J and Durresi, Arjan.*<br>
 ACM Computing Surveys 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3491209)]
-32. **Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection.**<br>
+33. **Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection.**<br>
 *Wu, Bingzhe and Bian, Yatao and Zhang, Hengtong and Li, Jintang and Yu, Junchi and Chen, Liang and Chen, Chaochao and Huang, Junzhou.*<br>
 SIGKDD 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3534678.3542597)]
-33. **Combating Noisy Labels in Long-Tailed Image Classification.**<br>
+34. **Combating Noisy Labels in Long-Tailed Image Classification.**<br>
 *Fang, Chaowei and Cheng, Lechao and Qi, Huiyan and Zhang, Dingwen.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.00273)]
-34. **An Empirical Study of Accuracy, Fairness, Explainability, Distributional Robustness, and Adversarial Robustness.**<br>
+35. **An Empirical Study of Accuracy, Fairness, Explainability, Distributional Robustness, and Adversarial Robustness.**<br>
 *Singh, Moninder and Ghalachyan, Gevorg and Varshney, Kush R and Bryant, Reginald E.*<br>
 arXiv 2021. [[Paper](https://arxiv.org/abs/2109.14653)]
-35. **A Survey of Data Optimization for Problems in Computer Vision Datasets.**<br>
+36. **A Survey of Data Optimization for Problems in Computer Vision Datasets.**<br>
 *Wan, Zhijing and Wang, Zhixiang and Chung, CheukTing and Wang, Zheng.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11717)]
-36. **Towards Data-centric Graph Machine Learning: Review and Outlook.**<br>
+37. **Towards Data-centric Graph Machine Learning: Review and Outlook.**<br>
 *Zheng, Xin and Liu, Yixin and Bao, Zhifeng and Fang, Meng and Hu, Xia and Liew, Alan Wee-Chung and Pan, Shirui.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2309.10979)]
 # The proposed taxonomy
 # Goals, scenarios, and data objects
 ## Optimization goals
-37. **G-softmax: improving intraclass compactness and interclass separability of features.**<br>
+38. **G-softmax: improving intraclass compactness and interclass separability of features.**<br>
 *Luo, Yan and Wong, Yongkang and Kankanhalli, Mohan and Zhao, Qi.*<br>
 TNNLS 2019. [[Paper](https://ieeexplore.ieee.org/ielaam/5962385/8984609/8712413-aam.pdf)]
-38. **Label noise sgd provably prefers flat global minimizers.**<br>
+39. **Label noise sgd provably prefers flat global minimizers.**<br>
 *Damian, Alex and Ma, Tengyu and Lee, Jason D.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/file/e6af401c28c1790eaef7d55c92ab6ab6-Paper.pdf)]
-39. **Implicit semantic data augmentation for deep networks.**<br>
+40. **Implicit semantic data augmentation for deep networks.**<br>
 *Wang, Yulin and Pan, Xuran and Song, Shiji and Zhang, Hong and Huang, Gao and Wu, Cheng.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)]
-40. **Meta balanced network for fair face recognition.**<br>
+41. **Meta balanced network for fair face recognition.**<br>
 *Wang, Mei and Zhang, Yaobin and Deng, Weihong.*<br>
 TPAMI 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9512390)]
-41. **Data Augmentation by Selecting Mixed Classes Considering Distance Between Classes.**<br>
+42. **Data Augmentation by Selecting Mixed Classes Considering Distance Between Classes.**<br>
 *Fujii, Shungo and Ishii, Yasunori and Kozuka, Kazuki and Hirakawa, Tsubasa and Yamashita, Takayoshi and Fujiyoshi, Hironobu.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2209.05122)]
-12. **mixup: Beyond Empirical Risk Minimization.**<br>
+43. **mixup: Beyond Empirical Risk Minimization.**<br>
 *Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N and Lopez-Paz, David.*<br>
 ICLR 2018. [[Paper](https://openreview.net/pdf?id=r1Ddp1-Rb)]
-42. **Online batch selection for faster training of neural networks.**<br>
+44. **Online batch selection for faster training of neural networks.**<br>
 *Loshchilov, Ilya and Hutter, Frank.*<br>
 ICLR workshop track 2016. [[Paper](https://openreview.net/forum?id=r8lrkABJ7H8wknpYt5KB)]
-43. **Fair Mixup: Fairness via Interpolation.**<br>
+45. **Fair Mixup: Fairness via Interpolation.**<br>
 *Mroueh, Youssef and others.*<br>
 ICLR 2021. [[Paper](https://openreview.net/pdf?id=DNl5s5BXeBn)]
-44. **Fair classification with adversarial perturbations.**<br>
+46. **Fair classification with adversarial perturbations.**<br>
 *Celis, L Elisa and Mehrotra, Anay and Vishnoi, Nisheeth.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/44e207aecc63505eb828d442de03f2e9-Paper.pdf)]
-45. **FORML: Learning to Reweight Data for Fairness.**<br>
+47. **FORML: Learning to Reweight Data for Fairness.**<br>
 *Yan, Bobby and Seto, Skyler and Apostoloff, Nicholas.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.01719)]
-46. **Class-balanced loss based on effective number of samples.**<br>
+48. **Class-balanced loss based on effective number of samples.**<br>
 *Cui, Yin and Jia, Menglin and Lin, Tsung-Yi and Song, Yang and Belongie, Serge.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)]
-47. **Logit perturbation.**<br>
+49. **Logit perturbation.**<br>
 *Li, Mengyang and Su, Fengguang and Wu, Ou and Zhang, Ji.*<br>
 AAAI 2022. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20024)]
-48. **Scale-aware automatic augmentations for object detection with dynamic training.**<br>
+50. **Scale-aware automatic augmentations for object detection with dynamic training.**<br>
 *Chen, Yukang and Zhang, Peizhen and Kong, Tao and Li, Yanwei and Zhang, Xiangyu and Qi, Lu and Sun, Jian and Jia, Jiaya.*<br>
 TPAMI 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/9756374)]
-49. **Obtaining well calibrated probabilities using bayesian binning.**<br>
+51. **Obtaining well calibrated probabilities using bayesian binning.**<br>
 *Naeini, Mahdi Pakdaman and Cooper, Gregory and Hauskrecht, Milos.*<br>
 AAAI 2015. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/9602)]
-50. **The devil is in the margin: Margin-based label smoothing for network calibration.**<br>
+52. **The devil is in the margin: Margin-based label smoothing for network calibration.**<br>
 *Liu, Bingyuan and Ben Ayed, Ismail and Galdran, Adrian and Dolz, Jose.*<br>
 CVPR 2022. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_The_Devil_Is_in_the_Margin_Margin-Based_Label_Smoothing_for_CVPR_2022_paper.pdf)]
-51. **Calibrating deep neural networks using focal loss.**<br>
+53. **Calibrating deep neural networks using focal loss.**<br>
 *Mukhoti, Jishnu and Kulharia, Viveka and Sanyal, Amartya and Golodetz, Stuart and Torr, Philip and Dokania, Puneet.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper/2020/file/aeb7b30ef1d024a76f21a1d40e30c302-Paper.pdf)]
 ## Application scenarios
-7. **Can Data Diversity Enhance Learning Generalization?**<br>
+54. **Can Data Diversity Enhance Learning Generalization?**<br>
 *Yu, Yu and Khadivi, Shahram and Xu, Jia.*<br>
 COLING 2022. [[Paper](https://aclanthology.org/2022.coling-1.437.pdf)]
-52. **Diversify your vision datasets with automatic diffusion-based augmentation.**<br>
+55. **Diversify your vision datasets with automatic diffusion-based augmentation.**<br>
 *Dunlap, Lisa and Umino, Alyssa and Zhang, Han and Yang, Jiezhi and Gonzalez, Joseph E and Darrell, Trevor.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16289)]
-53. **Infusing definiteness into randomness: rethinking composition styles for deep image matting.**<br>
+56. **Infusing definiteness into randomness: rethinking composition styles for deep image matting.**<br>
 *Ye, Zixuan and Dai, Yutong and Hong, Chaoyi and Cao, Zhiguo and Lu, Hao.*<br>
 AAAI 2023. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25432)]
-54. **Image data augmentation for deep learning: A survey.**<br>
+57. **Image data augmentation for deep learning: A survey.**<br>
 *Yang, Suorong and Xiao, Weikang and Zhang, Mengcheng and Guo, Suhan and Zhao, Jian and Shen, Furao.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2204.08610)]
-55. **BigTranslate: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages.**<br>
+58. **BigTranslate: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages.**<br>
 *Yang, Wen and Li, Chong and Zhang, Jiajun and Zong, Chengqing.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.18098)]
-56. **Adversarial training for large neural language models.**<br>
+59. **Adversarial training for large neural language models.**<br>
 *Liu, Xiaodong and Cheng, Hao and He, Pengcheng and Chen, Weizhu and Wang, Yu and Poon, Hoifung and Gao, Jianfeng.*<br>
 arXiv 2020. [[Paper](https://arxiv.org/abs/2004.08994)]
 ## Data objects
 ### Primary objects
 ### Other objects
-57. **Understanding the difficulty of training deep feedforward neural networks.**<br>
+60. **Understanding the difficulty of training deep feedforward neural networks.**<br>
 *Glorot, Xavier and Bengio, Yoshua.*<br>
 AISTATS 2010. [[Paper](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)]
-58. **Delving deep into rectifiers: Surpassing human-level performance on imagenet classification.**<br>
+61. **Delving deep into rectifiers: Surpassing human-level performance on imagenet classification.**<br>
 *He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian.*<br>
 ICCV 2015. [[Paper](https://openaccess.thecvf.com/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf)]
-59. **Submodular Meta Data Compiling for Meta Optimization.**<br>
+62. **Submodular Meta Data Compiling for Meta Optimization.**<br>
 *Su, Fengguang and Zhu, Yu and Wu, Ou and Deng, Yingjun.*<br>
 ECML/PKDD 2022. [[Paper](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_474.pdf)]
 # Optimization pipeline
 ## Data perception 
 ### Perception on different granularity levels
-60. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
+63. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
 *Huang, Jinchi and Qu, Lie and Jia, Rongfei and Zhao, Binqiang.*<br>
 ICCV 2019. [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_O2U-Net_A_Simple_Noisy_Label_Detection_Approach_for_Deep_Neural_ICCV_2019_paper.pdf)] 
-61. **Gradient harmonized single-stage detector.**<br>
+64. **Gradient harmonized single-stage detector.**<br>
 *Li, Buyu and Liu, Yu and Wang, Xiaogang.*<br>
 AAAI 2019. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4877)]
-62. **Delving deep into label smoothing.**<br>
+65. **Delving deep into label smoothing.**<br>
 *Zhang, Chang-Bin and Jiang, Peng-Tao and Hou, Qibin and Wei, Yunchao and Han, Qi and Li, Zhen and Cheng, Ming-Ming.*<br>
 TIP 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9464693)]
-63. **Class-wise difficulty-balanced loss for solving class-imbalance.**<br>
+66. **Class-wise difficulty-balanced loss for solving class-imbalance.**<br>
 *Sinha, Saptarshi and Ohashi, Hiroki and Nakamura, Katsuyuki.*<br>
 ACCV 2020. [[Paper](https://openaccess.thecvf.com/content/ACCV2020/papers/Sinha_Class-Wise_Difficulty-Balanced_Loss_for_Solving_Class-Imbalance_ACCV_2020_paper.pdf)]
-64. **Ccl: Class-wise curriculum learning for class imbalance problems.**<br>
+67. **Ccl: Class-wise curriculum learning for class imbalance problems.**<br>
 *Escudero-Vi{\~n}olo, Marcos and L{\'o}pez-Cifuentes, Alejandro.*<br>
 ICIP 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9897273)]
-65. **Hyper-sausage coverage function neuron model and learning algorithm for image classification.**<br>
+68. **Hyper-sausage coverage function neuron model and learning algorithm for image classification.**<br>
 *Ning, Xin and Tian, Weijuan and He, Feng and Bai, Xiao and Sun, Le and Li, Weijun.*<br>
 Pattern Recognition 2023. [[Paper](https://www.sciencedirect.com/science/article/pii/S0031320322006951)]
-66. **Measuring the effect of training data on deep learning predictions via randomized experiments.**<br>
+69. **Measuring the effect of training data on deep learning predictions via randomized experiments.**<br>
 *Lin, Jinkun and Zhang, Anqi and L{\'e}cuyer, Mathias and Li, Jinyang and Panda, Aurojit and Sen, Siddhartha.*<br>
 ICML 2022. [[Paper](https://proceedings.mlr.press/v162/lin22h/lin22h.pdf)]
-67. **Combining Adversaries with Anti-adversaries in Training.**<br>
+70. **Combining Adversaries with Anti-adversaries in Training.**<br>
 *Zhou, Xiaoling and Yang, Nan and Wu, Ou.*<br>
 AAAI 2023. [[Paper](https://arxiv.org/abs/2304.12550)]
 ### Perception on different types                        
-39. **Implicit semantic data augmentation for deep networks.**<br>
+71. **Implicit semantic data augmentation for deep networks.**<br>
 *Wang, Yulin and Pan, Xuran and Song, Shiji and Zhang, Hong and Huang, Gao and Wu, Cheng.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)]
-68. **Invariant feature learning for generalized long-tailed classification.**<br>
+72. **Invariant feature learning for generalized long-tailed classification.**<br>
 *Tang, Kaihua and Tao, Mingyuan and Qi, Jiaxin and Liu, Zhenguang and Zhang, Hanwang.*<br>
 ECCV 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-20053-3_41)]
-69. **DatasetEquity: Are All Samples Created Equal? In The Quest For Equity Within Datasets.**<br>
+73. **DatasetEquity: Are All Samples Created Equal? In The Quest For Equity Within Datasets.**<br>
 *Shrivastava, Shubham and Zhang, Xianling and Nagesh, Sushruth and Parchami, Armin.*<br>
 ICCV 2023. [[Paper](https://openaccess.thecvf.com/content/ICCV2023W/OODCV/papers/Shrivastava_DatasetEquity_Are_All_Samples_Created_Equal_In_The_Quest_For_ICCVW_2023_paper.pdf)]
-70. **Tackling the imbalance for gnns.**<br>
+74. **Tackling the imbalance for gnns.**<br>
 *Wang, Rui and Xiong, Weixuan and Hou, Qinghu and Wu, Ou.*<br>
 IJCNN 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9892713)]
-60. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
+75. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
 *Huang, Jinchi and Qu, Lie and Jia, Rongfei and Zhao, Binqiang.*<br>
 ICCV 2019. [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_O2U-Net_A_Simple_Noisy_Label_Detection_Approach_for_Deep_Neural_ICCV_2019_paper.pdf)]
-71. **Curriculum learning.**<br>
+76. **Curriculum learning.**<br>
 *Bengio, Yoshua and Louradour, J{\'e}r{\^o}me and Collobert, Ronan and Weston, Jason.*<br>
 ICML 2009. [[Paper](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/15972/Bengio%2C%202009%20Curriculum%20Learning.pdf?sequence=1&isAllowed=y)]
-72. **Focal loss for dense object detection.**<br>
+77. **Focal loss for dense object detection.**<br>
 *Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\'a}r, Piotr.*<br>
 ICCV 2017. [[Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)]
-73. **Deep learning on a data diet: Finding important examples early in training.**<br>
+78. **Deep learning on a data diet: Finding important examples early in training.**<br>
 *Paul, Mansheej and Ganguli, Surya and Dziugaite, Gintare Karolina.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/ac56f8fe9eea3e4a365f29f0f1957c55-Paper.pdf)]
-74. **Exploring the Learning Difficulty of Data Theory and Measure.**<br>
+79. **Exploring the Learning Difficulty of Data Theory and Measure.**<br>
 *Zhu, Weiyao and Wu, Ou and Su, Fengguang and Deng, Yingjun.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.07427)]
-75. **Beyond neural scaling laws: beating power law scaling via data pruning.**<br>
+80. **Beyond neural scaling laws: beating power law scaling via data pruning.**<br>
 *Sorscher, Ben and Geirhos, Robert and Shekhar, Shashank and Ganguli, Surya and Morcos, Ari.*<br>
 NeurIPS 2022. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/7b75da9b61eda40fa35453ee5d077df6-Paper-Conference.pdf)]
-76. **A review of uncertainty quantification in deep learning: Techniques, applications and challenges.**<br>
+81. **A review of uncertainty quantification in deep learning: Techniques, applications and challenges.**<br>
 *Abdar, Moloud and Pourpanah, Farhad and Hussain, Sadiq and Rezazadegan, Dana and Liu, Li and Ghavamzadeh, Mohammad and Fieguth, Paul and Cao, Xiaochun and Khosravi, Abbas and Acharya, U Rajendra and Makarenkov, Vladimir and Nahavandi, Saeid.*<br>
 Information fusion 2021. [[Paper](https://www.sciencedirect.com/science/article/pii/S1566253521001081)]
-77. **A tale of two long tails.**<br>
+82. **A tale of two long tails.**<br>
 *D'souza, Daniel and Nussbaum, Zach and Agarwal, Chirag and Hooker, Sara.*<br>
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.13098)]
-78. **What uncertainties do we need in bayesian deep learning for computer vision?**<br>
+83. **What uncertainties do we need in bayesian deep learning for computer vision?**<br>
 *Kendall, Alex and Gal, Yarin.*<br>
 NeurIPS 2017. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/2650d6089a6d640c5e85b2b88265dc2b-Paper.pdf)]
-79. **Submodular optimization-based diverse paraphrasing and its effectiveness in data augmentation.**<br>
+84. **Submodular optimization-based diverse paraphrasing and its effectiveness in data augmentation.**<br>
 *Kumar, Ashutosh and Bhattamishra, Satwik and Bhandari, Manik and Talukdar, Partha.*<br>
 NAACL 2019. [[Paper](https://aclanthology.org/N19-1363/)]
-59. **Submodular Meta Data Compiling for Meta Optimization.**<br>
+85. **Submodular Meta Data Compiling for Meta Optimization.**<br>
 *Su, Fengguang and Zhu, Yu and Wu, Ou and Deng, Yingjun.*<br>
 ECML/PKDD 2022. [[Paper](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_474.pdf)]
-80. **The vendi score: A diversity evaluation metric for machine learning.**<br>
+86. **The vendi score: A diversity evaluation metric for machine learning.**<br>
 *Friedman, Dan and Dieng, Adji Bousso.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2210.02410)]
-81. **Improved techniques for training gans.**<br>
+87. **Improved techniques for training gans.**<br>
 *Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi.*<br>
 NeurIPS 2016. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2016/file/8a3363abe792db2d8761d6403605aeb7-Paper.pdf)]
-82. **Rethinking Class Imbalance in Machine Learning.**<br>
+88. **Rethinking Class Imbalance in Machine Learning.**<br>
 *Wu, Ou.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.03900)]  
-68. **Invariant feature learning for generalized long-tailed classification.**<br>
+89. **Invariant feature learning for generalized long-tailed classification.**<br>
 *Tang, Kaihua and Tao, Mingyuan and Qi, Jiaxin and Liu, Zhenguang and Zhang, Hanwang.*<br>
 ECCV 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-20053-3_41)]
-83. **Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics.**<br>
+90. **Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics.**<br>
 *Swayamdipta, Swabha and Schwartz, Roy and Lourie, Nicholas and Wang, Yizhong and Hajishirzi, Hannaneh and Smith, Noah A and Choi, Yejin.*<br>
 EMNLP 2020. [[Paper](https://aclanthology.org/2020.emnlp-main.746/)]
-84. **Learning with neighbor consistency for noisy labels.**<br>
+91. **Learning with neighbor consistency for noisy labels.**<br>
 *Iscen, Ahmet and Valmadre, Jack and Arnab, Anurag and Schmid, Cordelia.*<br>
 CVPR 2022. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Iscen_Learning_With_Neighbor_Consistency_for_Noisy_Labels_CVPR_2022_paper.pdf)]
-85. **An Empirical Study of Example Forgetting during Deep Neural Network Learning.**<br>
+92. **An Empirical Study of Example Forgetting during Deep Neural Network Learning.**<br>
 *Toneva, Mariya and Sordoni, Alessandro and des Combes, Remi Tachet and Trischler, Adam and Bengio, Yoshua and Gordon, Geoffrey J.*<br>
 ICLR 2019. [[Paper](https://openreview.net/forum?id=BJlxm30cKm&fbclid=IwAR3kUvKWW-NyzCi7dB_zL47J_KJSMtcqQp8eFQEd5R07VWj5dcCwHJsXRcc)]
-86. **Attaining Class-Level Forgetting in Pretrained Model Using Few Samples.**<br>
+93. **Attaining Class-Level Forgetting in Pretrained Model Using Few Samples.**<br>
 *Singh, Pravendra and Mazumder, Pratik and Karim, Mohammed Asad.*<br>
 ECCV 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19778-9_25)]
-87. **Characterizing datapoints via second-split forgetting.**<br>
+94. **Characterizing datapoints via second-split forgetting.**<br>
 *Maini, Pratyush and Garg, Saurabh and Lipton, Zachary and Kolter, J Zico.*<br>
 NeurIPS 2022. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/c20447998d6c624b4b97d4466a3bfff5-Paper-Conference.pdf)]  
-88. **A comprehensive survey of forgetting in deep learning beyond continual learning.**<br>
+95. **A comprehensive survey of forgetting in deep learning beyond continual learning.**<br>
 *Wang, Zhenyi and Yang, Enneng and Shen, Li and Huang, Heng.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2307.09218)]  
-89. **FINE samples for learning with noisy labels.**<br>
+96. **FINE samples for learning with noisy labels.**<br>
 *Kim, Taehyeon and Ko, Jongwoo and Cho, Sangwook and Choi, Jinhwan and Yun, Se-Young.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/ca91c5464e73d3066825362c3093a45f-Paper.pdf)]  
-90. **A value for n-person games.**<br>
+97. **A value for n-person games.**<br>
 *L. S. Shapley.*<br>
 Contributions to the Theory of Games 1953. [[Paper](https://apps.dtic.mil/sti/tr/pdf/AD0604084.pdf)]
-91. **Data shapley: Equitable valuation of data for machine learning.**<br>
+98. **Data shapley: Equitable valuation of data for machine learning.**<br>
 *Ghorbani, Amirata and Zou, James.*<br>
 ICML 2019. [[Paper](https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf)]     
-92. **Data valuation using reinforcement learning.**<br>
+99. **Data valuation using reinforcement learning.**<br>
 *Yoon, Jinsung and Arik, Sercan and Pfister, Tomas.*<br>
 ICML 2020. [[Paper](https://proceedings.mlr.press/v119/yoon20a/yoon20a.pdf)] 
-66. **Measuring the effect of training data on deep learning predictions via randomized experiments.**<br>
+100. **Measuring the effect of training data on deep learning predictions via randomized experiments.**<br>
 *Lin, Jinkun and Zhang, Anqi and L{\'e}cuyer, Mathias and Li, Jinyang and Panda, Aurojit and Sen, Siddhartha.*<br>
 ICML 2022. [[Paper](https://proceedings.mlr.press/v162/lin22h/lin22h.pdf)]   
-93. **Energy-Based Learning for Cooperative Games, with Applications to Valuation Problems in Machine Learning.**<br>
+101. **Energy-Based Learning for Cooperative Games, with Applications to Valuation Problems in Machine Learning.**<br>
 *Bian, Yatao and Rong, Yu and Xu, Tingyang and Wu, Jiaxiang and Krause, Andreas and Huang, Junzhou.*<br>
 ICLR 2021. [[Paper](https://openreview.net/forum?id=xLfAgCroImw)]  
-94. **OpenDataVal: a Unified Benchmark for Data Valuation.**<br>
+102. **OpenDataVal: a Unified Benchmark for Data Valuation.**<br>
 *Jiang, Kevin Fu and Liang, Weixin and Zou, James and Kwon, Yongchan.*<br>
 NeurIPS 2023. [[Paper](https://arxiv.org/abs/2306.10577)] 
-95. **Locally adaptive label smoothing improves predictive churn.**<br>
+103. **Locally adaptive label smoothing improves predictive churn.**<br>
 *Bahri, Dara and Jiang, Heinrich.*<br>
 ICML 2021. [[Paper](https://proceedings.mlr.press/v139/bahri21a/bahri21a.pdf)] 
-96. **Data Profiling for Adversarial Training: On the Ruin of Problematic Data.**<br>
+104. **Data Profiling for Adversarial Training: On the Ruin of Problematic Data.**<br>
 *Dong, Chengyu and Liu, Liyuan and Shang, Jingbo.*<br>
 arXiv 2021. [[Paper](https://arxiv.org/abs/2102.07437v1)] 
-97. **Training data influence analysis and estimation: A survey.**<br>
+105. **Training data influence analysis and estimation: A survey.**<br>
 *Hammoudeh, Zayd and Lowd, Daniel.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2212.04612)]  
-98. **Learning to purify noisy labels via meta soft label corrector.**<br>
+106. **Learning to purify noisy labels via meta soft label corrector.**<br>
 *Wu, Yichen and Shu, Jun and Xie, Qi and Zhao, Qian and Meng, Deyu.*<br>
 AAAI 2021. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/17244)] 
-99. **Meta-weight-net: Learning an explicit mapping for sample weighting.**<br>
+107. **Meta-weight-net: Learning an explicit mapping for sample weighting.**<br>
 *Shu, Jun and Xie, Qi and Yi, Lixuan and Zhao, Qian and Zhou, Sanping and Xu, Zongben and Meng, Deyu.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/e58cc5ca94270acaceed13bc82dfedf7-Paper.pdf)]
-67. **Combining Adversaries with Anti-adversaries in Training.**<br>
+108. **Combining Adversaries with Anti-adversaries in Training.**<br>
 *Zhou, Xiaoling and Yang, Nan and Wu, Ou.*<br>
 AAAI 2023. [[Paper](https://arxiv.org/abs/2304.12550)]
 ### Static and dynamic perception    
-60. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
+109. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
 *Huang, Jinchi and Qu, Lie and Jia, Rongfei and Zhao, Binqiang.*<br>
 ICCV 2019. [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_O2U-Net_A_Simple_Noisy_Label_Detection_Approach_for_Deep_Neural_ICCV_2019_paper.pdf)]
-100. **Self-paced learning for latent variable models.**<br>
+110. **Self-paced learning for latent variable models.**<br>
 *Kumar, M and Packer, Benjamin and Koller, Daphne.*<br>
 NeurIPS 2010. [[Paper](https://proceedings.neurips.cc/paper/2010/file/e57c6b956a6521b28495f2886ca0977a-Paper.pdf)]                    
 ## Analysis on perceived quantities
-85. **An Empirical Study of Example Forgetting during Deep Neural Network Learning.**<br>
+111. **An Empirical Study of Example Forgetting during Deep Neural Network Learning.**<br>
 *Toneva, Mariya and Sordoni, Alessandro and des Combes, Remi Tachet and Trischler, Adam and Bengio, Yoshua and Gordon, Geoffrey J.*<br>
 ICLR 2019. [[Paper](https://openreview.net/forum?id=BJlxm30cKm&fbclid=IwAR3kUvKWW-NyzCi7dB_zL47J_KJSMtcqQp8eFQEd5R07VWj5dcCwHJsXRcc)]     
-60. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
+112. **O2u-net: A simple noisy label detection approach for deep neural networks.**<br>
 *Huang, Jinchi and Qu, Lie and Jia, Rongfei and Zhao, Binqiang.*<br>
 ICCV 2019. [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_O2U-Net_A_Simple_Noisy_Label_Detection_Approach_for_Deep_Neural_ICCV_2019_paper.pdf)]
-74. **Exploring the Learning Difficulty of Data Theory and Measure.**<br>
+113. **Exploring the Learning Difficulty of Data Theory and Measure.**<br>
 *Zhu, Weiyao and Wu, Ou and Su, Fengguang and Deng, Yingjun.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2205.07427)]
-101. **Unsupervised label noise modeling and loss correction.**<br>
+114. **Unsupervised label noise modeling and loss correction.**<br>
 *Arazo, Eric and Ortego, Diego and Albert, Paul and O’Connor, Noel and McGuinness, Kevin.*<br>
 ICML 2019. [[Paper](https://proceedings.mlr.press/v97/arazo19a/arazo19a.pdf)]  
-102. **MILD: Modeling the Instance Learning Dynamics for Learning with Noisy Labels.**<br>
+115. **MILD: Modeling the Instance Learning Dynamics for Learning with Noisy Labels.**<br>
 *Hu, Chuanyang and Yan, Shipeng and Gao, Zhitong and He, Xuming.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2306.11560)]                   
 ## Optimizing
 ## Data optimization techniques
 ## Data resampling 
-103. **Repair: Removing representation bias by dataset resampling.**<br>
+116. **Repair: Removing representation bias by dataset resampling.**<br>
 *Li, Yi and Vasconcelos, Nuno.*<br>
 CVPR 2020. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_REPAIR_Removing_Representation_Bias_by_Dataset_Resampling_CVPR_2019_paper.pdf)]
-104. **The class imbalance problem.**<br>
+117. **The class imbalance problem.**<br>
 *Megahed, Fadel M and Chen, Ying-Ju and Megahed, Aly and Ong, Yuya and Altman, Naomi and Krzywinski, Martin.*<br>
 Nature Methods 2021. [[Paper](https://www.nature.com/articles/s41592-021-01302-4)]
-105. **Reslt: Residual learning for long-tailed recognition.**<br>
+118. **Reslt: Residual learning for long-tailed recognition.**<br>
 *Cui, Jiequan and Liu, Shu and Tian, Zhuotao and Zhong, Zhisheng and Jia, Jiaya.*<br>
 TPAMI 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9774921)]
-106. **Batchbald: Efficient and diverse batch acquisition for deep bayesian active learning.**<br>
+119. **Batchbald: Efficient and diverse batch acquisition for deep bayesian active learning.**<br>
 *Kirsch, Andreas and Van Amersfoort, Joost and Gal, Yarin.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/95323660ed2124450caaac2c46b5ed90-Paper.pdf)]
-42. **Online batch selection for faster training of neural networks.**<br>
+120. **Online batch selection for faster training of neural networks.**<br>
 *Loshchilov, Ilya and Hutter, Frank.*<br>
 ICLR workshop track 2016. [[Paper](https://openreview.net/forum?id=r8lrkABJ7H8wknpYt5KB)]
-15. **Learning from imbalanced data.**<br>
+121. **Learning from imbalanced data.**<br>
 *He, Haibo and Garcia, Edwardo A.*<br>
 TKDE 2009. [[Paper](https://ieeexplore.ieee.org/abstract/document/5128907)]
-107. **Improving predictive inference under covariate shift by weighting the log-likelihood function.**<br>
+122. **Improving predictive inference under covariate shift by weighting the log-likelihood function.**<br>
 *Shimodaira, Hidetoshi.*<br>
 Journal of statistical planning and inference 2000. [[Paper](https://www.sciencedirect.com/science/article/pii/S0378375800001154?casa_token=rvwJ8e4TPt0AAAAA:TJUlHDHpcCd0-9xSlzt13K4hnlQQcF6Ed4e9JXzCBgAzQY8PPKah46j3f3QDZSedHP16vTFMVbw)]
-108. **What is the effect of importance weighting in deep learning?.**<br>
+123. **What is the effect of importance weighting in deep learning?.**<br>
 *Byrd, Jonathon and Lipton, Zachary.*<br>
 ICML 2019. [[Paper](https://proceedings.mlr.press/v97/byrd19a/byrd19a.pdf)]    
-109. **Black-box importance sampling.**<br>
+124. **Black-box importance sampling.**<br>
 *Liu, Qiang and Lee, Jason.*<br>
 AISTATS 2017. [[Paper](https://proceedings.mlr.press/v54/liu17b/liu17b.pdf)]  
-110. **Not all samples are created equal: Deep learning with importance sampling.**<br>
+125. **Not all samples are created equal: Deep learning with importance sampling.**<br>
 *Katharopoulos, Angelos and Fleuret, Fran{\c{c}}ois.*<br>
 ICML 2018. [[Paper](https://proceedings.mlr.press/v80/katharopoulos18a/katharopoulos18a.pdf)]  
-61. **Gradient harmonized single-stage detector.**<br>
+126. **Gradient harmonized single-stage detector.**<br>
 *Li, Buyu and Liu, Yu and Wang, Xiaogang.*<br>
 AAAI 2019. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4877)]
-111. **Training deep models faster with robust, approximate importance sampling.**<br>
+127. **Training deep models faster with robust, approximate importance sampling.**<br>
 *Johnson, Tyler B and Guestrin, Carlos.*<br>
 NeurIPS 2018. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2018/file/967990de5b3eac7b87d49a13c6834978-Paper.pdf)]  
-112. **Accelerating deep learning by focusing on the biggest losers.**<br>
+128. **Accelerating deep learning by focusing on the biggest losers.**<br>
 *Jiang, Angela H and Wong, Daniel L-K and Zhou, Giulio and Andersen, David G and Dean, Jeffrey and Ganger, Gregory R and Joshi, Gauri and Kaminksy, Michael and Kozuch, Michael and Lipton, Zachary C and Pillai, Padmanabhan.*<br>
 arXiv 2020. [[Paper](https://arxiv.org/abs/1910.00762)]  
-113. **Towards Understanding Deep Learning from Noisy Labels with Small-Loss Criterion.**<br>
+129. **Towards Understanding Deep Learning from Noisy Labels with Small-Loss Criterion.**<br>
 *Gui, Xian-Jin and Wang, Wei and Tian, Zhang-Hao.*<br>
 IJCAI 2021. [[Paper](https://www.ijcai.org/proceedings/2021/0340.pdf)]  
-114. **Adaptiveface: Adaptive margin and sampling for face recognition.**<br>
+130. **Adaptiveface: Adaptive margin and sampling for face recognition.**<br>
 *Liu, Hao and Zhu, Xiangyu and Lei, Zhen and Li, Stan Z.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_AdaptiveFace_Adaptive_Margin_and_Sampling_for_Face_Recognition_CVPR_2019_paper.pdf)]                      
-115. **Understanding the role of importance weighting for deep learning.**<br>
+131. **Understanding the role of importance weighting for deep learning.**<br>
 *Xu, Da and Ye, Yuting and Ruan, Chuanwei.*<br>
 arXiv 2021. [[Paper](https://arxiv.org/abs/2103.15209)]  
-116. **How to measure uncertainty in uncertainty sampling for active learning.**<br>
+132. **How to measure uncertainty in uncertainty sampling for active learning.**<br>
 *Nguyen, Vu-Linh and Shaker, Mohammad Hossein and H{\"u}llermeier, Eyke.*<br>
 Machine Learning 2022. [[Paper](https://link.springer.com/article/10.1007/s10994-021-06003-9)]  
-117. **A survey on uncertainty estimation in deep learning classification systems from a Bayesian perspective.**<br>
+133. **A survey on uncertainty estimation in deep learning classification systems from a Bayesian perspective.**<br>
 *Mena, Jos{\'e} and Pujol, Oriol and Vitria, Jordi.*<br>
 ACM Computing Surveys 2021. [[Paper](https://diposit.ub.edu/dspace/bitstream/2445/183476/1/714838.pdf)]  
-118. **Uncertainty aware sampling framework of weak-label learning for histology image classification.**<br>
+134. **Uncertainty aware sampling framework of weak-label learning for histology image classification.**<br>
 *Aljuhani, Asmaa and Casukhela, Ishya and Chan, Jany and Liebner, David and Machiraju, Raghu.*<br>
 MICCAI 2022. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-16434-7_36)]
-119. **Optimal subsampling with influence functions.**<br>
+135. **Optimal subsampling with influence functions.**<br>
 *Ting, Daniel and Brochu, Eric.*<br>
 NeurIPS 2018. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2018/file/57c0531e13f40b91b3b0f1a30b529a1d-Paper.pdf)]
-120. **Background data resampling for outlier-aware classification.**<br>
+136. **Background data resampling for outlier-aware classification.**<br>
 *Li, Yi and Vasconcelos, Nuno.*<br>
 CVPR 2020. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Background_Data_Resampling_for_Outlier-Aware_Classification_CVPR_2020_paper.pdf)]  
-121. **Sentence-level resampling for named entity recognition.**<br>
+137. **Sentence-level resampling for named entity recognition.**<br>
 *Wang, Xiaochen and Wang, Yue.*<br>
 NAACL 2022. [[Paper](https://aclanthology.org/2022.naacl-main.156/)]  
-122. **Undersampling near decision boundary for imbalance problems.**<br>
+138. **Undersampling near decision boundary for imbalance problems.**<br>
 *Zhang, Jianjun and Wang, Ting and Ng, Wing WY and Zhang, Shuai and Nugent, Chris D.*<br>
 ICMLC 2019. [[Paper](https://www.researchgate.net/profile/Jianjun-Zhang-4/publication/338453773_Undersampling_Near_Decision_Boundary_for_Imbalance_Problems/links/5e6982f992851c20f321f55b/Undersampling-Near-Decision-Boundary-for-Imbalance-Problems.pdf)]  
-123. **Autosampling: Search for effective data sampling schedules.**<br>
+139. **Autosampling: Search for effective data sampling schedules.**<br>
 *Sun, Ming and Dou, Haoxuan and Li, Baopu and Yan, Junjie and Ouyang, Wanli and Cui, Lei.*<br>
 ICML 2021. [[Paper](https://proceedings.mlr.press/v139/sun21a/sun21a.pdf)]  
 ## Data augmentation
-124. **Understanding data augmentation in neural machine translation: Two perspectives towards generalization.**<br>
+140. **Understanding data augmentation in neural machine translation: Two perspectives towards generalization.**<br>
 *Li, Guanlin and Liu, Lemao and Huang, Guoping and Zhu, Conghui and Zhao, Tiejun.*<br>
 EMNLP-IJCNLP 2019. [[Paper](https://aclanthology.org/D19-1570/)]
-125. **Maximum-entropy adversarial data augmentation for improved generalization and robustness.**<br>
+141. **Maximum-entropy adversarial data augmentation for improved generalization and robustness.**<br>
 *Zhao, Long and Liu, Ting and Peng, Xi and Metaxas, Dimitris.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/a5bfc9e07964f8dddeb95fc584cd965d-Paper.pdf)]
-126. **Data augmentation can improve robustness.**<br>
+142. **Data augmentation can improve robustness.**<br>
 *Rebuffi, Sylvestre-Alvise and Gowal, Sven and Calian, Dan Andrei and Stimberg, Florian and Wiles, Olivia and Mann, Timothy A.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/file/fb4c48608ce8825b558ccf07169a3421-Paper.pdf)]
-127. **Data augmentation alone can improve adversarial training.**<br>
+143. **Data augmentation alone can improve adversarial training.**<br>
 *Li, Lin and Spratling, Michael W.*<br>
 ICLR 2023. [[Paper](https://openreview.net/forum?id=y4uc4NtTWaq)]
-128. **A survey on data augmentation for text classification.**<br>
+144. **A survey on data augmentation for text classification.**<br>
 *Bayer, Markus and Kaufhold, Marc-Andr{\'e} and Reuter, Christian.*<br>
 ACM Computing Surveys 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3544558)]
-129. **A survey on image data augmentation for deep learning.**<br>
+145. **A survey on image data augmentation for deep learning.**<br>
 *Shorten, Connor and Khoshgoftaar, Taghi M.*<br>
 Journal of big data 2019. [[Paper](https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-019-0197-0.pdf)]
-130. **Data augmentation for deep graph learning: A survey.**<br>
+146. **Data augmentation for deep graph learning: A survey.**<br>
 *Ding, Kaize and Xu, Zhe and Tong, Hanghang and Liu, Huan.*<br>
 ACM SIGKDD Explorations Newsletter 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3575637.3575646)]
-131. **Time Series Data Augmentation for Deep Learning: A Survey.**<br>
+147. **Time Series Data Augmentation for Deep Learning: A Survey.**<br>
 *Wen, Qingsong and Sun, Liang and Yang, Fan and Song, Xiaomin and Gao, Jingkun and Wang, Xue and Xu, Huan.*<br>
 IJCAI 2021. [[Paper](https://www.ijcai.org/proceedings/2021/0631.pdf)]
 ### Augmentation target
-129. **A survey on image data augmentation for deep learning.**<br>
+148. **A survey on image data augmentation for deep learning.**<br>
 *Shorten, Connor and Khoshgoftaar, Taghi M.*<br>
 Journal of big data 2019. [[Paper](https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-019-0197-0.pdf)]
-132. **Data augmentation approaches in natural language processing: A survey.**<br>
+149. **Data augmentation approaches in natural language processing: A survey.**<br>
 *Li, Bohan and Hou, Yutai and Che, Wanxiang.*<br>
 Ai Open 2022. [[Paper](https://www.sciencedirect.com/science/article/pii/S2666651022000080)]
-133. **Dataset augmentation in feature space.**<br>
+150. **Dataset augmentation in feature space.**<br>
 *DeVries, Terrance and Taylor, Graham W.*<br>
 ICLR Workshop track 2017. [[Paper](https://openreview.net/pdf?id=HJ9rLLcxg)]
-134. **A simple feature augmentation for domain generalization.**<br>
+151. **A simple feature augmentation for domain generalization.**<br>
 *Li, Pan and Li, Da and Li, Wei and Gong, Shaogang and Fu, Yanwei and Hospedales, Timothy M.*<br>
 ICCV 2021. [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_A_Simple_Feature_Augmentation_for_Domain_Generalization_ICCV_2021_paper.pdf)]
-135. **Augmentation invariant and instance spreading feature for softmax embedding.**<br>
+152. **Augmentation invariant and instance spreading feature for softmax embedding.**<br>
 *Ye, Mang and Shen, Jianbing and Zhang, Xu and Yuen, Pong C and Chang, Shih-Fu.*<br>
 TPAMI 2020. [[Paper](https://ieeexplore.ieee.org/abstract/document/9154587)]
-136. **Feature space augmentation for long-tailed data.**<br>
+153. **Feature space augmentation for long-tailed data.**<br>
 *Chu, Peng and Bian, Xiao and Liu, Shaopeng and Ling, Haibin.*<br>
 ECCV 2020. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58526-6_41)]
-137. **Towards Deep Learning Models Resistant to Adversarial Attacks.**<br>
+154. **Towards Deep Learning Models Resistant to Adversarial Attacks.**<br>
 *Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian.*<br>
 ICLR 2018. [[Paper](https://openreview.net/forum?id=rJzIBfZAb)]
-138. **Recent Advances in Adversarial Training for Adversarial Robustness.**<br>
+155. **Recent Advances in Adversarial Training for Adversarial Robustness.**<br>
 *Bai, Tao and Luo, Jinqi and Zhao, Jun and Wen, Bihan and Wang, Qian.*<br>
 IJCAI 2021. [[Paper](https://www.ijcai.org/proceedings/2021/0591.pdf)]
-139. **Graddiv: Adversarial robustness of randomized neural networks via gradient diversity regularization.**<br>
+156. **Graddiv: Adversarial robustness of randomized neural networks via gradient diversity regularization.**<br>
 *Lee, Sungyoon and Kim, Hoki and Lee, Jaewook.*<br>
 TPAMI 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9761760)]
-140. **Self-supervised label augmentation via input transformations.**<br>
+157. **Self-supervised label augmentation via input transformations.**<br>
 *Lee, Hankook and Hwang, Sung Ju and Shin, Jinwoo.*<br>
 ICML 2020. [[Paper](https://proceedings.mlr.press/v119/lee20c/lee20c.pdf)]
-141. **Transductive label augmentation for improved deep network learning.**<br>
+158. **Transductive label augmentation for improved deep network learning.**<br>
 *Elezi, Ismail and Torcinovich, Alessandro and Vascon, Sebastiano and Pelillo, Marcello.*<br>
 ICPR 2018. [[Paper](https://ieeexplore.ieee.org/abstract/document/8545524/)]
-142. **Adversarial and isotropic gradient augmentation for image retrieval with text feedback.**<br>
+159. **Adversarial and isotropic gradient augmentation for image retrieval with text feedback.**<br>
 *Huang, Fuxiang and Zhang, Lei and Zhou, Yuhang and Gao, Xinbo.*<br>
 IEEE Transactions on Multimedia 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9953564)]
 ### Augmentation strategy
-143. **SMOTE: synthetic minority over-sampling technique}.**<br>
+160. **SMOTE: synthetic minority over-sampling technique}.**<br>
 *Chawla, Nitesh V and Bowyer, Kevin W and Hall, Lawrence O and Kegelmeyer, W Philip.*<br>
 Journal of artificial intelligence research 2002. [[Paper](https://www.jair.org/index.php/jair/article/view/10302)]
-144. **A cost-sensitive deep learning-based approach for network traffic classification.**<br>
+161. **A cost-sensitive deep learning-based approach for network traffic classification.**<br>
 *Telikani, Akbar and Gandomi, Amir H and Choo, Kim-Kwang Raymond and Shen, Jun.*<br>
 IEEE Transactions on Network and Service Management 2021. [[Paper](https://opus.lib.uts.edu.au/bitstream/10453/151147/2/368a20cf-97f8-48ab-8094-46fd31da71a9.pdf)]
-145. **DeepSMOTE: Fusing deep learning and SMOTE for imbalanced data.**<br>
+162. **DeepSMOTE: Fusing deep learning and SMOTE for imbalanced data.**<br>
 *Dablain, Damien and Krawczyk, Bartosz and Chawla, Nitesh V.*<br>
 TNNLS 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9694621)]
-12. **mixup: Beyond Empirical Risk Minimization.**<br>
+163. **mixup: Beyond Empirical Risk Minimization.**<br>
 *Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N and Lopez-Paz, David.*<br>
 ICLR 2018. [[Paper](https://openreview.net/forum?id=r1Ddp1-Rb&;noteId=r1Ddp1-Rb)]
-146. **Manifold mixup: Better representations by interpolating hidden states.**<br>
+164. **Manifold mixup: Better representations by interpolating hidden states.**<br>
 *Verma, Vikas and Lamb, Alex and Beckham, Christopher and Najafi, Amir and Mitliagkas, Ioannis and Lopez-Paz, David and Bengio, Yoshua.*<br>
 ICML 2019. [[Paper](https://proceedings.mlr.press/v97/verma19a/verma19a.pdf)]
-147. **Generative adversarial nets.**<br>
+165. **Generative adversarial nets.**<br>
 *Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua.*<br>
 NeurIPS 2014. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf)]
-148. **A review on generative adversarial networks: Algorithms, theory, and applications.**<br>
+166. **A review on generative adversarial networks: Algorithms, theory, and applications.**<br>
 *Gui, Jie and Sun, Zhenan and Wen, Yonggang and Tao, Dacheng and Ye, Jieping.*<br>
 TKDE 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9625798)]
-149. **BAGAN: Data Augmentation with Balancing GAN.**<br>
+167. **BAGAN: Data Augmentation with Balancing GAN.**<br>
 *Mariani, Giovanni and Scheidegger, Florian and Istrate, Roxana and Bekas, Costas and Malossi, Cristiano.*<br>
 ICML 2018. [[Paper](https://research.ibm.com/publications/bagan-data-augmentation-with-balancing-gan)]
-150. **Auggan: Cross domain adaptation with gan-based data augmentation.**<br>
+168. **Auggan: Cross domain adaptation with gan-based data augmentation.**<br>
 *Huang, Sheng-Wei and Lin, Che-Tsung and Chen, Shu-Ping and Wu, Yen-Yi and Hsu, Po-Hao and Lai, Shang-Hong.*<br>
 ECCV 2018. [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Sheng-Wei_Huang_AugGAN_Cross_Domain_ECCV_2018_paper.html)]
-151. **TS-GAN: Time-series GAN for Sensor-based Health Data Augmentation.**<br>
+169. **TS-GAN: Time-series GAN for Sensor-based Health Data Augmentation.**<br>
 *Yang, Zhenyu and Li, Yantao and Zhou, Gang.*<br>
 ACM Transactions on Computing for Healthcare 2023. [[Paper](https://dl.acm.org/doi/abs/10.1145/3583593)]
-152. **Diffusion models: A comprehensive survey of methods and applications.**<br>
+170. **Diffusion models: A comprehensive survey of methods and applications.**<br>
 *Yang, Ling and Zhang, Zhilong and Song, Yang and Hong, Shenda and Xu, Runsheng and Zhao, Yue and Zhang, Wentao and Cui, Bin and Yang, Ming-Hsuan.*<br>
 ACM Computing Surveys 2022. [[Paper](https://dl.acm.org/doi/abs/10.1145/3626235)]
-153. **Multimodal Data Augmentation for Image Captioning using Diffusion Models.**<br>
+171. **Multimodal Data Augmentation for Image Captioning using Diffusion Models.**<br>
 *Xiao, Changrong and Xu, Sean Xin and Zhang, Kunpeng.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.01855)]
-52. **Diversify your vision datasets with automatic diffusion-based augmentation.**<br>
+172. **Diversify your vision datasets with automatic diffusion-based augmentation.**<br>
 *Dunlap, Lisa and Umino, Alyssa and Zhang, Han and Yang, Jiezhi and Gonzalez, Joseph E and Darrell, Trevor.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16289)]
-154. **An Extensive Exploration of Back-Translation in 60 Languages.**<br>
+173. **An Extensive Exploration of Back-Translation in 60 Languages.**<br>
 *McNamee, Paul and Duh, Kevin.*<br>
 Findings of ACL 2023. [[Paper](https://aclanthology.org/2023.findings-acl.518/)]
-155. **I2t2i: Learning text to image synthesis with textual data augmentation.**<br>
+174. **I2t2i: Learning text to image synthesis with textual data augmentation.**<br>
 *Dong, Hao and Zhang, Jingqing and McIlwraith, Douglas and Guo, Yike.*<br>
 ICIP 2017. [[Paper](https://ieeexplore.ieee.org/abstract/document/8296635)]
-156. **Set-level Guidance Attack: Boosting Adversarial Transferability of Vision-Language Pre-training Models.**<br>
+175. **Set-level Guidance Attack: Boosting Adversarial Transferability of Vision-Language Pre-training Models.**<br>
 *Lu, Dong and Wang, Zhiqiang and Wang, Teng and Guan, Weili and Gao, Hongchang and Zheng, Feng.*<br>
 ICCV 2023. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_Set-level_Guidance_Attack_Boosting_Adversarial_Transferability_of_Vision-Language_Pre-training_Models_ICCV_2023_paper.pdf)]
-157. **TTIDA: Controllable Generative Data Augmentation via Text-to-Text and Text-to-Image Models.**<br>
+176. **TTIDA: Controllable Generative Data Augmentation via Text-to-Text and Text-to-Image Models.**<br>
 *Yin, Yuwei and Kaddour, Jean and Zhang, Xiang and Nie, Yixin and Liu, Zhenguang and Kong, Lingpeng and Liu, Qi.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2304.08821)]
-67. **Combining Adversaries with Anti-adversaries in Training.**<br>
+177. **Combining Adversaries with Anti-adversaries in Training.**<br>
 *Zhou, Xiaoling and Yang, Nan and Wu, Ou.*<br>
 AAAI 2023. [[Paper](https://arxiv.org/abs/2304.12550)]
-158. **Improving generalization via uncertainty driven perturbations.**<br>
+178. **Improving generalization via uncertainty driven perturbations.**<br>
 *Pagliardini, Matteo and Manunza, Gilberto and Jaggi, Martin and Jordan, Michael I and Chavdarova, Tatjana.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.05737)]
-159. **Randaugment: Practical automated data augmentation with a reduced search space.**<br>
+179. **Randaugment: Practical automated data augmentation with a reduced search space.**<br>
 *Cubuk, Ekin D and Zoph, Barret and Shlens, Jonathon and Le, Quoc V.*<br>
 CVPR workshops 2020. [[Paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w40/Cubuk_Randaugment_Practical_Automated_Data_Augmentation_With_a_Reduced_Search_Space_CVPRW_2020_paper.pdf)]
-160. **Metamixup: Learning adaptive interpolation policy of mixup with metalearning.**<br>
+180. **Metamixup: Learning adaptive interpolation policy of mixup with metalearning.**<br>
 *Mai, Zhijun and Hu, Guosheng and Chen, Dexiong and Shen, Fumin and Shen, Heng Tao.*<br>
 TNNLS 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9366422)]
-161. **Automatic data augmentation via deep reinforcement learning for effective kidney tumor segmentation.**<br>
+181. **Automatic data augmentation via deep reinforcement learning for effective kidney tumor segmentation.**<br>
 *Qin, Tiexin and Wang, Ziyuan and He, Kelei and Shi, Yinghuan and Gao, Yang and Shen, Dinggang.*<br>
 ICASSP 2020. [[Paper](https://ieeexplore.ieee.org/abstract/document/9053403)]
-162. **Augmentation strategies for learning with noisy labels.**<br>
+182. **Augmentation strategies for learning with noisy labels.**<br>
 *Nishi, Kento and Ding, Yi and Rich, Alex and Hollerer, Tobias.*<br>
 CVPR 2021. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Nishi_Augmentation_Strategies_for_Learning_With_Noisy_Labels_CVPR_2021_paper.pdf)]
-163. **Differentiable automatic data augmentation.**<br>
+183. **Differentiable automatic data augmentation.**<br>
 *Li, Yonggang and Hu, Guosheng and Wang, Yongtao and Hospedales, Timothy and Robertson, Neil M and Yang, Yongxin.*<br>
 ECCV 2020. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58542-6_35)]
-39. **Implicit semantic data augmentation for deep networks.**<br>
+184. **Implicit semantic data augmentation for deep networks.**<br>
 *Wang, Yulin and Pan, Xuran and Song, Shiji and Zhang, Hong and Huang, Gao and Wu, Cheng.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)]
-164. **Imagine by reasoning: A reasoning-based implicit semantic data augmentation for long-tailed classification.**<br>
+185. **Imagine by reasoning: A reasoning-based implicit semantic data augmentation for long-tailed classification.**<br>
 *Chen, Xiaohua and Zhou, Yucan and Wu, Dayan and Zhang, Wanqian and Zhou, Yu and Li, Bo and Wang, Weiping.*<br>
 AAAI 2022. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/19912)]
-165. **Implicit Counterfactual Data Augmentation for Deep Neural Networks.**<br>
+186. **Implicit Counterfactual Data Augmentation for Deep Neural Networks.**<br>
 *Zhou, Xiaoling and Wu, Ou.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2304.13431)]
-166. **On feature normalization and data augmentation.**<br>
+187. **On feature normalization and data augmentation.**<br>
 *Li, Boyi and Wu, Felix and Lim, Ser-Nam and Belongie, Serge and Weinberger, Kilian Q.*<br>
 CVPR 2021. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_On_Feature_Normalization_and_Data_Augmentation_CVPR_2021_paper.pdf)]
-167. **Implicit rugosity regularization via data augmentation.**<br>
+188. **Implicit rugosity regularization via data augmentation.**<br>
 *LeJeune, Daniel and Balestriero, Randall and Javadi, Hamid and Baraniuk, Richard G.*<br>
 arXiv 2019. [[Paper](https://arxiv.org/abs/1905.11639)]
-168. **Mixup as locally linear out-of-manifold regularization.**<br>
+189. **Mixup as locally linear out-of-manifold regularization.**<br>
 *Guo, Hongyu and Mao, Yongyi and Zhang, Richong.*<br>
 AAAI 2019. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4256)]
-169. **Avoiding overfitting: A survey on regularization methods for convolutional neural networks.**<br>
+190. **Avoiding overfitting: A survey on regularization methods for convolutional neural networks.**<br>
 *Santos, Claudio Filipi Gon{\c{c}}alves Dos and Papa, Jo{\~a}o Paulo.*<br>
 ACM Computing Surveys 2022. [[Paper](https://dl.acm.org/doi/full/10.1145/3510413)]
-170. **The good, the bad and the ugly sides of data augmentation: An implicit spectral regularization perspective.**<br>
+191. **The good, the bad and the ugly sides of data augmentation: An implicit spectral regularization perspective.**<br>
 *Lin, Chi-Heng and Kaushik, Chiraag and Dyer, Eva L and Muthukumar, Vidya.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2210.05021)]
-171. **A group-theoretic framework for data augmentation.**<br>
+192. **A group-theoretic framework for data augmentation.**<br>
 *Chen, Shuxiao and Dobriban, Edgar and Lee, Jane H.*<br>
 The Journal of Machine Learning Research 2020. [[Paper](https://dl.acm.org/doi/abs/10.5555/3455716.3455961)]
 ## Data perturbation
-13. **Compensation learning.**<br>
+193. **Compensation learning.**<br>
 *Yao, Rujing and Wu, Ou.*<br>
 arXiv 2021. [[Paper](https://arxiv.org/abs/2107.11921)]
 ### Perturbation target
-172. **Learn2perturb: an end-to-end feature perturbation learning to improve adversarial robustness.**<br>
+194. **Learn2perturb: an end-to-end feature perturbation learning to improve adversarial robustness.**<br>
 *Jeddi, Ahmadreza and Shafiee, Mohammad Javad and Karg, Michelle and Scharfenberger, Christian and Wong, Alexander.*<br>
 CVPR 2020. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jeddi_Learn2Perturb_An_End-to-End_Feature_Perturbation_Learning_to_Improve_Adversarial_Robustness_CVPR_2020_paper.pdf)]
-173. **Encoding robustness to image style via adversarial feature perturbations.**<br>
+195. **Encoding robustness to image style via adversarial feature perturbations.**<br>
 *Shu, Manli and Wu, Zuxuan and Goldblum, Micah and Goldstein, Tom.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper/2021/file/ec20019911a77ad39d023710be68aaa1-Paper.pdf)]
-47. **Logit perturbation.**<br>
+196. **Logit perturbation.**<br>
 *Li, Mengyang and Su, Fengguang and Wu, Ou and Zhang, Ji.*<br>
 AAAI 2022. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20024)]
-174. **Long-tail learning via logit adjustment.**<br>
+197. **Long-tail learning via logit adjustment.**<br>
 *Menon, Aditya Krishna and Jayasumana, Sadeep and Rawat, Ankit Singh and Jain, Himanshu and Veit, Andreas and Kumar, Sanjiv.*<br>
 ICLR 2021. [[Paper](https://openreview.net/pdf?id=37nvvqkCo5)]
-175. **Learning imbalanced datasets with label-distribution-aware margin loss.**<br>
+198. **Learning imbalanced datasets with label-distribution-aware margin loss.**<br>
 *Cao, Kaidi and Wei, Colin and Gaidon, Adrien and Arechiga, Nikos and Ma, Tengyu.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/621461af90cadfdaf0e8d4cc25129f91-Paper.pdf)]
-39. **Implicit semantic data augmentation for deep networks.**<br>
+199. **Implicit semantic data augmentation for deep networks.**<br>
 *Wang, Yulin and Pan, Xuran and Song, Shiji and Zhang, Hong and Huang, Gao and Wu, Cheng.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)]
-176. **Class-Level Logit Perturbation.**<br>
+200. **Class-Level Logit Perturbation.**<br>
 *Li, Mengyang and Su, Fengguang and Wu, Ou and Zhang, Ji.*<br>
 TNNLS 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10130785/)]
-177. **Rethinking the inception architecture for computer vision.**<br>
+201. **Rethinking the inception architecture for computer vision.**<br>
 *Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jon and Wojna, Zbigniew.*<br>
 CVPR 2016. [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf)]
-62. **Delving deep into label smoothing.**<br>
+202. **Delving deep into label smoothing.**<br>
 *Zhang, Chang-Bin and Jiang, Peng-Tao and Hou, Qibin and Wei, Yunchao and Han, Qi and Li, Zhen and Cheng, Ming-Ming.*<br>
 TIP 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9464693)]
-178. **Adversarial robustness via label-smoothing.**<br>
+203. **Adversarial robustness via label-smoothing.**<br>
 *Goibert, Morgane and Dohmatob, Elvis.*<br>
 arXiv 2019. [[Paper](https://arxiv.org/abs/1906.11567)]
-179. **From label smoothing to label relaxation.**<br>
+204. **From label smoothing to label relaxation.**<br>
 *Lienen, Julian and H{\"u}llermeier, Eyke.*<br>
 AAAI 2021. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/17041)]
-180. **Anticorrelated noise injection for improved generalization.**<br>
+205. **Anticorrelated noise injection for improved generalization.**<br>
 *Orvieto, Antonio and Kersting, Hans and Proske, Frank and Bach, Francis and Lucchi, Aurelien.*<br>
 ICML 2022. [[Paper](https://proceedings.mlr.press/v162/orvieto22a/orvieto22a.pdf)]
-181. **Adversarial weight perturbation helps robust generalization.**<br>
+206. **Adversarial weight perturbation helps robust generalization.**<br>
 *Wu, Dongxian and Xia, Shu-Tao and Wang, Yisen.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/1ef91c212e30e14bf125e9374262401f-Paper.pdf)]
-182. **Reinforcement learning with perturbed rewards.**<br>
+207. **Reinforcement learning with perturbed rewards.**<br>
 *Wang, Jingkang and Liu, Yang and Li, Bo.*<br>
 AAAI 2020. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/6086)]
 ### Perturbation direction
-39. **Implicit semantic data augmentation for deep networks.**<br>
+208. **Implicit semantic data augmentation for deep networks.**<br>
 *Wang, Yulin and Pan, Xuran and Song, Shiji and Zhang, Hong and Huang, Gao and Wu, Cheng.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper/2019/file/15f99f2165aa8c86c9dface16fefd281-Paper.pdf)]
-67. **Combining Adversaries with Anti-adversaries in Training.**<br>
+209. **Combining Adversaries with Anti-adversaries in Training.**<br>
 *Zhou, Xiaoling and Yang, Nan and Wu, Ou.*<br>
 AAAI 2023. [[Paper](https://arxiv.org/abs/2304.12550)]
-183. **Training deep neural networks on noisy labels with bootstrapping.**<br>
+210. **Training deep neural networks on noisy labels with bootstrapping.**<br>
 *Reed, Scott and Lee, Honglak and Anguelov, Dragomir and Szegedy, Christian and Erhan, Dumitru and Rabinovich, Andrew.*<br>
 ICLR workshop 2015. [[Paper](https://imgtec.eetrend.com/sites/imgtec.eetrend.com/files/201709/blog/10381-29627-deep.pdf)]
-47. **Logit perturbation.**<br>
+211. **Logit perturbation.**<br>
 *Li, Mengyang and Su, Fengguang and Wu, Ou and Zhang, Ji.*<br>
 AAAI 2022. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20024)]
 ### Perturbation granularity
-184. **Universal adversarial training with class-wise perturbations.**<br>
+212. **Universal adversarial training with class-wise perturbations.**<br>
 *Benz, Philipp and Zhang, Chaoning and Karjauv, Adil and Kweon, In So.*<br>
 ICME 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9428419/)]
-185. **Balancing Logit Variation for Long-tailed Semantic Segmentation.**<br>
+213. **Balancing Logit Variation for Long-tailed Semantic Segmentation.**<br>
 *Wang, Yuchao and Fei, Jingjing and Wang, Haochen and Li, Wei and Bao, Tianpeng and Wu, Liwei and Zhao, Rui and Shen, Yujun.*<br>
 CVPR 2023. [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Balancing_Logit_Variation_for_Long-Tailed_Semantic_Segmentation_CVPR_2023_paper.pdf)]
-186. **Universal adversarial training.**<br>
+214. **Universal adversarial training.**<br>
 *Shafahi, Ali and Najibi, Mahyar and Xu, Zheng and Dickerson, John and Davis, Larry S and Goldstein, Tom.*<br>
 AAAI 2020. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/6017)]
-187. **Universal adversarial perturbations.**<br>
+215. **Universal adversarial perturbations.**<br>
 *Moosavi-Dezfooli, Seyed-Mohsen and Fawzi, Alhussein and Fawzi, Omar and Frossard, Pascal.*<br>
 CVPR 2017. [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.pdf)]
-188. **Distribution-balanced loss for multi-label classification in long-tailed datasets.**<br>
+216. **Distribution-balanced loss for multi-label classification in long-tailed datasets.**<br>
 *Wu, Tong and Huang, Qingqiu and Liu, Ziwei and Wang, Yu and Lin, Dahua.*<br>
 ECCV 2020. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_10)]
 ### Assignment manner
-189. **Transferable adversarial perturbations.**<br>
+217. **Transferable adversarial perturbations.**<br>
 *Zhou, Wen and Hou, Xin and Chen, Yongjun and Tang, Mengyun and Huang, Xiangqi and Gan, Xiang and Yang, Yong.*<br>
 ECCV 2018. [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.pdf)]
-190. **Sparse adversarial perturbations for videos.**<br>
+218. **Sparse adversarial perturbations for videos.**<br>
 *Wei, Xingxing and Zhu, Jun and Yuan, Sha and Su, Hang.*<br>
 AAAI 2019. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4927)]
-191. **Investigating annotation noise for named entity recognition.**<br>
+219. **Investigating annotation noise for named entity recognition.**<br>
 *Zhu, Yu and Ye, Yingchun and Li, Mengyang and Zhang, Ji and Wu, Ou.*<br>
 Neural Computing and Applications 2023. [[Paper](https://link.springer.com/article/10.1007/s00521-022-07733-0)]
-192. **A simple framework for contrastive learning of visual representations.**<br>
+220. **A simple framework for contrastive learning of visual representations.**<br>
 *Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey.*<br>
 ICML 2020. [[Paper](https://proceedings.mlr.press/v119/chen20j.html)]
-193. **A self-supervised approach for adversarial robustness.**<br>
+221. **A self-supervised approach for adversarial robustness.**<br>
 *Naseer, Muzammal and Khan, Salman and Hayat, Munawar and Khan, Fahad Shahbaz and Porikli, Fatih.*<br>
 CVPR 2020. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Naseer_A_Self-supervised_Approach_for_Adversarial_Robustness_CVPR_2020_paper.pdf)]
-194. **GANSER: A self-supervised data augmentation framework for EEG-based emotion recognition.**<br>
+222. **GANSER: A self-supervised data augmentation framework for EEG-based emotion recognition.**<br>
 *Zhang, Zhi and Zhong, Sheng-hua and Liu, Yan.*<br>
 IEEE Transactions on Affective Computing 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9763358/)]
-195. **Metasaug: Meta semantic augmentation for long-tailed visual recognition.**<br>
+223. **Metasaug: Meta semantic augmentation for long-tailed visual recognition.**<br>
 *Li, Shuang and Gong, Kaixiong and Liu, Chi Harold and Wang, Yulin and Qiao, Feng and Cheng, Xinjing.*<br>
 CVPR 2021. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_MetaSAug_Meta_Semantic_Augmentation_for_Long-Tailed_Visual_Recognition_CVPR_2021_paper.pdf)]
-196. **Uncertainty-guided model generalization to unseen domains.**<br>
+224. **Uncertainty-guided model generalization to unseen domains.**<br>
 *Qiao, Fengchun and Peng, Xi.*<br>
 CVPR 2021. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)]
-197. **Autoaugment: Learning augmentation policies from data.**<br>
+225. **Autoaugment: Learning augmentation policies from data.**<br>
 *Cubuk, Ekin D and Zoph, Barret and Mane, Dandelion and Vasudevan, Vijay and Le, Quoc V.*<br>
 CVPR 2019. [[Paper](https://research.google/pubs/pub47890/)]
-198. **Automatically Learning Data Augmentation Policies for Dialogue Tasks.**<br>
+226. **Automatically Learning Data Augmentation Policies for Dialogue Tasks.**<br>
 *Niu, Tong and Bansal, Mohit.*<br>
 EMNLP 2019. [[Paper](https://aclanthology.org/D19-1132/)]
-199. **Deep reinforcement adversarial learning against botnet evasion attacks.**<br>
+227. **Deep reinforcement adversarial learning against botnet evasion attacks.**<br>
 *Apruzzese, Giovanni and Andreolini, Mauro and Marchetti, Mirco and Venturi, Andrea and Colajanni, Michele.*<br>
 IEEE Transactions on Network and Service Management 2020. [[Paper](https://ieeexplore.ieee.org/abstract/document/9226405)]
-200. **Adversarial reinforced instruction attacker for robust vision-language navigation.**<br>
+228. **Adversarial reinforced instruction attacker for robust vision-language navigation.**<br>
 *Lin, Bingqian and Zhu, Yi and Long, Yanxin and Liang, Xiaodan and Ye, Qixiang and Lin, Liang.*<br>
 TPAMI 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9488322)]
-
 ## Data weighting
 ### Weighting granularity
-201. **Denoising implicit feedback for recommendation.**<br>
+229. **Denoising implicit feedback for recommendation.**<br>
 *Wang, Wenjie and Feng, Fuli and He, Xiangnan and Nie, Liqiang and Chua, Tat-Seng.*<br>
 WSDM 2021. [[Paper](https://dl.acm.org/doi/abs/10.1145/3437963.3441800)]
-202. **Superloss: A generic loss for robust curriculum learning.**<br>
+230. **Superloss: A generic loss for robust curriculum learning.**<br>
 *Castells, Thibault and Weinzaepfel, Philippe and Revaud, Jerome.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper/2020/file/2cfa8f9e50e0f510ede9d12338a5f564-Paper.pdf)]
-46. **Class-balanced loss based on effective number of samples.**<br>
+231. **Class-balanced loss based on effective number of samples.**<br>
 *Cui, Yin and Jia, Menglin and Lin, Tsung-Yi and Song, Yang and Belongie, Serge.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)]
-203. **Distribution alignment: A unified framework for long-tail visual recognition.**<br>
+232. **Distribution alignment: A unified framework for long-tail visual recognition.**<br>
 *Zhang, Songyang and Li, Zeming and Yan, Shipeng and He, Xuming and Sun, Jian.*<br>
 CVPR 2021. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Distribution_Alignment_A_Unified_Framework_for_Long-Tail_Visual_Recognition_CVPR_2021_paper.pdf)]
-204. **Dynamically weighted balanced loss: class imbalanced learning and confidence calibration of deep neural networks.**<br>
+233. **Dynamically weighted balanced loss: class imbalanced learning and confidence calibration of deep neural networks.**<br>
 *Fernando, K Ruwani M and Tsokos, Chris P.*<br>
 TNNLS 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9324926)]
-205. **Just train twice: Improving group robustness without training group information.**<br>
+234. **Just train twice: Improving group robustness without training group information.**<br>
 *Liu, Evan Z and Haghgoo, Behzad and Chen, Annie S and Raghunathan, Aditi and Koh, Pang Wei and Sagawa, Shiori and Liang, Percy and Finn, Chelsea.*<br>
 ICML 2021. [[Paper](https://proceedings.mlr.press/v139/liu21f/liu21f.pdf)]
-206. **Geometry-aware Instance-reweighted Adversarial Training.**<br>
+235. **Geometry-aware Instance-reweighted Adversarial Training.**<br>
 *Zhang, Jingfeng and Zhu, Jianing and Niu, Gang and Han, Bo and Sugiyama, Masashi and Kankanhalli, Mohan.*<br>
 ICLR 2021. [[Paper](https://openreview.net/forum?id=iAX0l6Cz8ub)]
-207. **Credit card fraud detection: a realistic modeling and a novel learning strategy.**<br>
+236. **Credit card fraud detection: a realistic modeling and a novel learning strategy.**<br>
 *Dal Pozzolo, Andrea and Boracchi, Giacomo and Caelen, Olivier and Alippi, Cesare and Bontempi, Gianluca.*<br>
 TNNLS 2017. [[Paper](https://ieeexplore.ieee.org/abstract/document/8038008)]
-208. **Cost-sensitive portfolio selection via deep reinforcement learning.**<br>
+237. **Cost-sensitive portfolio selection via deep reinforcement learning.**<br>
 *Zhang, Yifan and Zhao, Peilin and Wu, Qingyao and Li, Bin and Huang, Junzhou and Tan, Mingkui.*<br>
 TKDE 2020. [[Paper](https://ieeexplore.ieee.org/abstract/document/9031418)]
-209. **Integrating TANBN with cost sensitive classification algorithm for imbalanced data in medical diagnosis.**<br>
+238. **Integrating TANBN with cost sensitive classification algorithm for imbalanced data in medical diagnosis.**<br>
 *Gan, Dan and Shen, Jiang and An, Bang and Xu, Man and Liu, Na.*<br>
 Computers & Industrial Engineering 2020. [[Paper](https://www.sciencedirect.com/science/article/pii/S0360835219307351?casa_token=97voI68djkMAAAAA:cRy98l9KsYxqelE8TlpklR7e7RcZD2dz9VvkF0Eg6FvwXAwvrCjJKfTbyzREOuY-TtDae5Hroiw)]
-45. **FORML: Learning to Reweight Data for Fairness.**<br>
+239. **FORML: Learning to Reweight Data for Fairness.**<br>
 *Yan, Bobby and Seto, Skyler and Apostoloff, Nicholas.*<br>
 arXiv 2022. [[Paper](https://arxiv.org/abs/2202.01719)]
-210. **Fairness in graph mining: A survey.**<br>
+240. **Fairness in graph mining: A survey.**<br>
 *Dong, Yushun and Ma, Jing and Wang, Song and Chen, Chen and Li, Jundong.*<br>
 TKDE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10097603)]
-
 ### Weighting factors
-71. **Curriculum learning.**<br>
+241. **Curriculum learning.**<br>
 *Bengio, Yoshua and Louradour, J{\'e}r{\^o}me and Collobert, Ronan and Weston, Jason.*<br>
 ICML 2009. [[Paper](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/15972/Bengio%2C%202009%20Curriculum%20Learning.pdf?sequence=1&isAllowed=y)]
-100. **Self-paced learning for latent variable models.**<br>
+242. **Self-paced learning for latent variable models.**<br>
 *Kumar, M and Packer, Benjamin and Koller, Daphne.*<br>
 NeurIPS 2010. [[Paper](https://proceedings.neurips.cc/paper/2010/file/e57c6b956a6521b28495f2886ca0977a-Paper.pdf)]
-211. **Easy samples first: Self-paced reranking for zero-example multimedia search.**<br>
+243. **Easy samples first: Self-paced reranking for zero-example multimedia search.**<br>
 *Jiang, Lu and Meng, Deyu and Mitamura, Teruko and Hauptmann, Alexander G.*<br>
 ACM MM 2014. [[Paper](https://dl.acm.org/doi/abs/10.1145/2647868.2654918)]
-212. **Self-paced learning with diversity.**<br>
+244. **Self-paced learning with diversity.**<br>
 *Jiang, Lu and Meng, Deyu and Yu, Shoou-I and Lan, Zhenzhong and Shan, Shiguang and Hauptmann, Alexander.*<br>
 NeurIPS 2014. [[Paper](https://proceedings.neurips.cc/paper/2014/file/c60d060b946d6dd6145dcbad5c4ccf6f-Paper.pdf)]
-213. **A self-paced multiple-instance learning framework for co-saliency detection.**<br>
+245. **A self-paced multiple-instance learning framework for co-saliency detection.**<br>
 *Zhang, Dingwen and Meng, Deyu and Li, Chao and Jiang, Lu and Zhao, Qian and Han, Junwei.*<br>
 ICCV 2015. [[Paper](https://openaccess.thecvf.com/content_iccv_2015/papers/Zhang_A_Self-Paced_Multiple-Instance_ICCV_2015_paper.pdf)]
-214. **Curriculum learning: A survey.**<br>
+246. **Curriculum learning: A survey.**<br>
 *Soviany, Petru and Ionescu, Radu Tudor and Rota, Paolo and Sebe, Nicu.*<br>
 IJCV 2022. [[Paper](https://link.springer.com/article/10.1007/s11263-022-01611-x)]
-72. **Focal loss for dense object detection.**<br>
+247. **Focal loss for dense object detection.**<br>
 *Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\'a}r, Piotr.*<br>
 ICCV 2017. [[Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)]
-206. **Geometry-aware Instance-reweighted Adversarial Training.**<br>
+248. **Geometry-aware Instance-reweighted Adversarial Training.**<br>
 *Zhang, Jingfeng and Zhu, Jianing and Niu, Gang and Han, Bo and Sugiyama, Masashi and Kankanhalli, Mohan.*<br>
 ICLR 2021. [[Paper](https://openreview.net/forum?id=iAX0l6Cz8ub)]
-215. **LOW: Training deep neural networks by learning optimal sample weights.**<br>
+249. **LOW: Training deep neural networks by learning optimal sample weights.**<br>
 *Santiago, Carlos and Barata, Catarina and Sasdelli, Michele and Carneiro, Gustavo and Nascimento, Jacinto C.*<br>
 Pattern Recognition 2021. [[Paper](https://www.sciencedirect.com/science/article/pii/S0031320320303885?casa_token=4OHT8wlvtroAAAAA:PRX8tFrNiPLvbPzQ7Fgsu9k-gUmqdNCePi0JdJJQzHzQarTjTeeo3MsnAsrc4lDwRSlqdKDuZLQ)]
-216. **Curriculum Learning with Diversity for Supervised Computer Vision Tasks.**<br>
+250. **Curriculum Learning with Diversity for Supervised Computer Vision Tasks.**<br>
 *Soviany, Petru.*<br>
 ICML Workshop 2020. [[Paper](https://openreview.net/forum?id=WH27bUkkzj)]
-217. **Which Samples Should Be Learned First: Easy or Hard?**<br>
+251. **Which Samples Should Be Learned First: Easy or Hard?**<br>
 *Which Samples Should Be Learned First: Easy or Hard?.*<br>
 TNNLS 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10155763)]
-218. **Metacleaner: Learning to hallucinate clean representations for noisy-labeled visual recognition.**<br>
+252. **Metacleaner: Learning to hallucinate clean representations for noisy-labeled visual recognition.**<br>
 *Zhang, Weihe and Wang, Yali and Qiao, Yu.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_MetaCleaner_Learning_to_Hallucinate_Clean_Representations_for_Noisy-Labeled_Visual_Recognition_CVPR_2019_paper.pdf)]
-219. **Confident learning: Estimating uncertainty in dataset labels.**<br>
+253. **Confident learning: Estimating uncertainty in dataset labels.**<br>
 *Northcutt, Curtis and Jiang, Lu and Chuang, Isaac.*<br>
 Journal of Artificial Intelligence Research 2021. [[Paper](https://www.jair.org/index.php/jair/article/view/12125)]
 ### Assignment manners
-46. **Class-balanced loss based on effective number of samples.**<br>
+254. **Class-balanced loss based on effective number of samples.**<br>
 *Cui, Yin and Jia, Menglin and Lin, Tsung-Yi and Song, Yang and Belongie, Serge.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)]
-72. **Focal loss for dense object detection.**<br>
+255. **Focal loss for dense object detection.**<br>
 *Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\'a}r, Piotr.*<br>
 ICCV 2017. [[Paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)]
-220. **Umix: Improving importance weighting for subpopulation shift via uncertainty-aware mixup.**<br>
+256. **Umix: Improving importance weighting for subpopulation shift via uncertainty-aware mixup.**<br>
 *Han, Zongbo and Liang, Zhipeng and Yang, Fan and Liu, Liu and Li, Lanqing and Bian, Yatao and Zhao, Peilin and Wu, Bingzhe and Zhang, Changqing and Yao, Jianhua.*<br>
 NeurIPS 2022. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/f593c9c251d4d7cf14d4ab9861dfb7eb-Paper-Conference.pdf)]
-221. **Classification with noisy labels by importance reweighting.**<br>
+257. **Classification with noisy labels by importance reweighting.**<br>
 *Liu, Tongliang and Tao, Dacheng.*<br>
 TPAMI 2015. [[Paper](https://ieeexplore.ieee.org/abstract/document/7159100)]
-100. **Self-paced learning for latent variable models.**<br>
+258. **Self-paced learning for latent variable models.**<br>
 *Kumar, M and Packer, Benjamin and Koller, Daphne.*<br>
 NeurIPS 2010. [[Paper](https://proceedings.neurips.cc/paper/2010/file/e57c6b956a6521b28495f2886ca0977a-Paper.pdf)]  
-222. **Self-paced learning: An implicit regularization perspective.**<br>
+259. **Self-paced learning: An implicit regularization perspective.**<br>
 *Fan, Yanbo and He, Ran and Liang, Jian and Hu, Baogang.*<br>
 AAAI 2017. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/10809)]
-223. **Adversarial reweighting for partial domain adaptation.**<br>
+260. **Adversarial reweighting for partial domain adaptation.**<br>
 *Gu, Xiang and Yu, Xi and Sun, Jian and Xu, Zongben.*<br>
 NeurIPS 2021. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/7ce3284b743aefde80ffd9aec500e085-Paper.pdf)]
-224. **Reweighting Augmented Samples by Minimizing the Maximal Expected Loss.**<br>
+261. **Reweighting Augmented Samples by Minimizing the Maximal Expected Loss.**<br>
 *Yi, Mingyang and Hou, Lu and Shang, Lifeng and Jiang, Xin and Liu, Qun and Ma, Zhi-Ming.*<br>
 ICLR 2021. [[Paper](https://openreview.net/forum?id=9G5MIc-goqB)]
-225. **Learning to reweight examples for robust deep learning.**<br>
+262. **Learning to reweight examples for robust deep learning.**<br>
 *Ren, Mengye and Zeng, Wenyuan and Yang, Bin and Urtasun, Raquel.*<br>
 ICML 2018. [[Paper](https://proceedings.mlr.press/v80/ren18a/ren18a.pdf)]
-99. **Meta-weight-net: Learning an explicit mapping for sample weighting.**<br>
+263. **Meta-weight-net: Learning an explicit mapping for sample weighting.**<br>
 *Shu, Jun and Xie, Qi and Yi, Lixuan and Zhao, Qian and Zhou, Sanping and Xu, Zongben and Meng, Deyu.*<br>
 NeurIPS 2019. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/e58cc5ca94270acaceed13bc82dfedf7-Paper.pdf)]
