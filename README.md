@@ -1,13 +1,14 @@
 # Data Optimization in Deep Learning: A Survey
-:hugs: The repository is a collection of resources on data optimization in deep learning, serving as a supplement to our survey paper "[Data Optimization in Deep Learning: A Survey](https://github.com/YaoRujing/Data-Optimization/blob/main/Data%20Optimization%20in%20Deep%20Learning-A%20Survey.pdf)". If you have any recommendations for missing work and any suggestions, please feel free to [pull requests](https://github.com/YaoRujing/Data-Optimization/pulls) or [contact us](mailto:wuou@tju.edu.cn):envelope:.
+:hugs: The repository is a collection of resources on data optimization in deep learning, serving as a supplement to our survey paper "[Data Optimization in Deep Learning: A Survey](https://arxiv.org/abs/2310.16499)". If you have any recommendations for missing work and any suggestions, please feel free to [pull requests](https://github.com/YaoRujing/Data-Optimization/pulls) or [contact us](mailto:wuou@tju.edu.cn):envelope:.
 
 If you find our survey useful, please kindly cite our paper:
 
 ```bibtex
 @article{wu2023data,
-      title={Data Optimization in Deep Learning: A Survey}, 
-      author={Wu, Ou and Yao, Rujing},
-      year={2023}
+  title={Data Optimization in Deep Learning: A Survey},
+  author={Wu, Ou and Yao, Rujing},
+  journal={arXiv preprint arXiv:2310.16499},
+  year={2023}
 }
 ```
 
