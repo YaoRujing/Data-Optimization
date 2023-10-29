@@ -53,7 +53,7 @@ If you find our survey useful, please kindly cite our paper:
 - [Connections among different techniques](#connections-among-different-techniques)
   - [Connections via data perception](#Connection-via-data-perception)                                          
   - [Connections via application scenarios](#connections-via-application-scenarios)
-  - [Connections via similarity/opposition](#connections-via-similarity/opposition)
+  - [Connections via similarity or opposition](#connections-via-similarity-or-opposition)
   - [Connections via theory](#connections-via-theory)
 - [Future Directions](#future-directions)
   - [Principles of data optimization](#principles-of-data-optimization)                                          
@@ -1344,7 +1344,7 @@ TKDE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10097603)]
 415. **Can we achieve robustness from data alone?**<br>
 *Tsilivis, Nikolaos and Su, Jingtong and Kempe, Julia.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2207.11727)]
-## Connections via similarity/opposition 
+## Connections via similarity or opposition 
 416. **MESA: boost ensemble imbalanced learning with meta-sampler.**<br>
 *Liu, Zhining and Wei, Pengfei and Jiang, Jing and Cao, Wei and Bian, Jiang and Chang, Yi.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper/2020/file/a64bd53139f71961c5c31a9af03d775e-Paper.pdf)]
