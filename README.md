@@ -40,7 +40,7 @@ If you find our survey useful, please kindly cite our paper:
   - [Data weighting](#data-weighting)
     - [Weighting granularity](#weighting-granularity) 
     - [Dependent factor](#dependent-factor)                             
-    - [Assignment manner](#assignment-manner)                                                 
+    - [Assignment manners](#assignment-manners)                                                 
   - [Data pruning](#data-pruning)
     - [Dataset distillation](#dataset-distillation) 
     - [Subset selection](#subset-selection)                                                                   
@@ -53,7 +53,7 @@ If you find our survey useful, please kindly cite our paper:
 - [Connections among different techniques](#connections-among-different-techniques)
   - [Connections via data perception](#Connection-via-data-perception)                                          
   - [Connections via application scenarios](#connections-via-application-scenarios)
-  - [Connections via similarity/opposition](#connections-via-similarity-opposition)
+  - [Connections via similarity/opposition](#connections-via-similarity/opposition)
   - [Connections via theory](#connections-via-theory)
 - [Future Directions](#future-directions)
   - [Principles of data optimization](#principles-of-data-optimization)                                          
@@ -848,7 +848,7 @@ CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang
 254. **Confident learning: Estimating uncertainty in dataset labels.**<br>
 *Northcutt, Curtis and Jiang, Lu and Chuang, Isaac.*<br>
 Journal of Artificial Intelligence Research 2021. [[Paper](https://www.jair.org/index.php/jair/article/view/12125)]
-### Assignment manner
+### Assignment manners
 255. **Class-balanced loss based on effective number of samples.**<br>
 *Cui, Yin and Jia, Menglin and Lin, Tsung-Yi and Song, Yang and Belongie, Serge.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)]
