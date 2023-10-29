@@ -15,13 +15,11 @@ If you find our survey useful, please kindly cite our paper:
 **📝 Table of Contents**
 - [Introduction](#introduction)
 - [Related studies](#related-studies)
-- [The proposed taxonomy](#the-proposed-taxonomy)
+- [Overall of The proposed taxonomy](#overall-of-the-proposed-taxonomy)
 - [Goals, scenarios, and data objects](#goals-scenarios-and-data-objects)
   - [Optimization goals](#optimization-goals)
   - [Application scenarios](#application-scenarios)
-  - [Data objects](#data-objects)
-    - [Primary objects](#primary-objects)
-    - [Other objects](#other-objects)                                                             
+  - [Data objects](#data-objects)                                                            
 - [Optimization pipeline](#optimization-pipeline)
   - [Data perception](#data-perception)
     - [Perception on different granularity levels](#perception-on-different-granularity-levels)                          
@@ -47,7 +45,7 @@ If you find our survey useful, please kindly cite our paper:
     - [Dataset distillation](#dataset-distillation) 
     - [Subset selection](#subset-selection)                                                                   
   - [Other typical techniques](#other-typical-techniques)   
-    - [Pure mathematical optimization](#mathematical-optimization) 
+    - [Pure mathematical optimization](#pure-mathematical-optimization) 
     - [Technique combination](#technique-combination)                                                                          
 - [Data optimization theories](#data-optimization-theories)
   - [Formalization](#formalization)                                          
@@ -62,8 +60,8 @@ If you find our survey useful, please kindly cite our paper:
   - [Interpretable data optimization](#interpretable-data-optimization)
   - [Human-in-the-loop data optimization](#human-in-the-loop-data-optimization)
   - [Data optimization for new challenges](#data-optimization-for-new-challenges)            
-  - [Data optimization agent](#data-optimization-agent)
- 
+  - [Data optimization agent](#data-optimization-agent) 
+
 # Introduction
 1. **Data collection and quality challenges in deep learning: A data-centric ai perspective.**<br>
 *Whang, Steven Euijong and Roh, Yuji and Song, Hwanjun and Lee, Jae-Gil.*<br>
@@ -177,7 +175,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2210.11717)]
 38. **Towards Data-centric Graph Machine Learning: Review and Outlook.**<br>
 *Zheng, Xin and Liu, Yixin and Bao, Zhifeng and Fang, Meng and Hu, Xia and Liew, Alan Wee-Chung and Pan, Shirui.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2309.10979)]
-# The proposed taxonomy
+# Overall of The proposed taxonomy
 # Goals, scenarios, and data objects
 ## Optimization goals
 39. **G-softmax: improving intraclass compactness and interclass separability of features.**<br>
@@ -248,8 +246,6 @@ arXiv 2023. [[Paper](https://arxiv.org/abs/2305.18098)]
 *Liu, Xiaodong and Cheng, Hao and He, Pengcheng and Chen, Weizhu and Wang, Yu and Poon, Hoifung and Gao, Jianfeng.*<br>
 arXiv 2020. [[Paper](https://arxiv.org/abs/2004.08994)]
 ## Data objects
-### Primary objects
-### Other objects
 61. **Understanding the difficulty of training deep feedforward neural networks.**<br>
 *Glorot, Xavier and Bengio, Yoshua.*<br>
 AISTATS 2010. [[Paper](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)]
@@ -524,7 +520,7 @@ ACM SIGKDD Explorations Newsletter 2022. [[Paper](https://dl.acm.org/doi/abs/10.
 148. **Time Series Data Augmentation for Deep Learning: A Survey.**<br>
 *Wen, Qingsong and Sun, Liang and Yang, Fan and Song, Xiaomin and Gao, Jingkun and Wang, Xue and Xu, Huan.*<br>
 IJCAI 2021. [[Paper](https://www.ijcai.org/proceedings/2021/0631.pdf)]
-### Augmentation target
+### Sample/feature augmentation
 149. **A survey on image data augmentation for deep learning.**<br>
 *Shorten, Connor and Khoshgoftaar, Taghi M.*<br>
 Journal of big data 2019. [[Paper](https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-019-0197-0.pdf)]
@@ -561,7 +557,7 @@ ICPR 2018. [[Paper](https://ieeexplore.ieee.org/abstract/document/8545524/)]
 160. **Adversarial and isotropic gradient augmentation for image retrieval with text feedback.**<br>
 *Huang, Fuxiang and Zhang, Lei and Zhou, Yuhang and Gao, Xinbo.*<br>
 IEEE Transactions on Multimedia 2022. [[Paper](https://ieeexplore.ieee.org/abstract/document/9953564)]
-### Augmentation strategy
+### Explicit/implicit augmentation
 161. **SMOTE: synthetic minority over-sampling technique}.**<br>
 *Chawla, Nitesh V and Bowyer, Kevin W and Hall, Lawrence O and Kegelmeyer, W Philip.*<br>
 Journal of artificial intelligence research 2002. [[Paper](https://www.jair.org/index.php/jair/article/view/10302)]
@@ -812,7 +808,7 @@ arXiv 2022. [[Paper](https://arxiv.org/abs/2202.01719)]
 241. **Fairness in graph mining: A survey.**<br>
 *Dong, Yushun and Ma, Jing and Wang, Song and Chen, Chen and Li, Jundong.*<br>
 TKDE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10097603)]
-### Weighting factors
+### Dependent factor
 242. **Curriculum learning.**<br>
 *Bengio, Yoshua and Louradour, Jérôme and Collobert, Ronan and Weston, Jason.*<br>
 ICML 2009. [[Paper](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/15972/Bengio%2C%202009%20Curriculum%20Learning.pdf?sequence=1&isAllowed=y)]
@@ -852,7 +848,7 @@ CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang
 254. **Confident learning: Estimating uncertainty in dataset labels.**<br>
 *Northcutt, Curtis and Jiang, Lu and Chuang, Isaac.*<br>
 Journal of Artificial Intelligence Research 2021. [[Paper](https://www.jair.org/index.php/jair/article/view/12125)]
-### Assignment manners
+### Assignment manner
 255. **Class-balanced loss based on effective number of samples.**<br>
 *Cui, Yin and Jia, Menglin and Lin, Tsung-Yi and Song, Yang and Belongie, Serge.*<br>
 CVPR 2019. [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)]
@@ -1113,7 +1109,7 @@ ICML 2023. [[Paper](https://proceedings.mlr.press/v202/hounie23a/hounie23a.pdf)]
 338. **Recovering from biased data: Can fairness constraints improve accuracy?**<br>
 *Blum, Avrim and Stangl, Kevin.*<br>
 FORC 2020. [[Paper](https://par.nsf.gov/biblio/10190440)]                               
-## Explanation 7.2
+## Explanation
 339. **A theoretical analysis of catastrophic forgetting through the ntk overlap matrix.**<br>
 *Doan, Thang and Bennani, Mehdi Abbana and Mazoure, Bogdan and Rabusseau, Guillaume and Alquier, Pierre.*<br>
 AISTATS 2021. [[Paper](https://proceedings.mlr.press/v130/doan21a/doan21a.pdf)] 
@@ -1183,8 +1179,8 @@ CVPR 2020. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yuan_
 361. **Neural networks regularization with graph-based local resampling.**<br>
 *Assis, Alex D and Torres, Luiz CB and Araújo, Lourenço RG and Hanriot, Vítor M and Braga, Antonio P.*<br>
 IEEE Access 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9383228)]
-# Connections among different techniques 8
-## Connections via data perception 8.1   
+# Connections among different techniques
+## Connections via data perception  
 362. **Probabilistic anchor assignment with iou prediction for object detection.**<br>
 *Kim, Kang and Lee, Hee Seok.*<br>
 ECCV 2020. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58595-2_22)]
@@ -1215,7 +1211,7 @@ AAAI 2019. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4877)]
 371. **Dataset Condensation with Gradient Matching.**<br>
 *Zhao, Bo and Mopuri, Konda Reddy and Bilen, Hakan.*<br>
 ICLR 2021. [[Paper](https://openreview.net/forum?id=mSAKhLYLSsl&continueFlag=634046c11e178a0606b18ce2de87a924)]                                   
-## Connections via application scenarios 8.2 
+## Connections via application scenarios
 372. **Resampling-based noise correction for crowdsourcing.**<br>
 *Xu, Wenqiang and Jiang, Liangxiao and Li, Chaoqun.*<br>
 Journal of Experimental & Theoretical Artificial Intelligence 2021. [[Paper](https://www.tandfonline.com/doi/abs/10.1080/0952813X.2020.1806519)] 
@@ -1348,14 +1344,14 @@ TKDE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10097603)]
 415. **Can we achieve robustness from data alone?**<br>
 *Tsilivis, Nikolaos and Su, Jingtong and Kempe, Julia.*<br>
 arXiv 2023. [[Paper](https://arxiv.org/abs/2207.11727)]
-## Connections via similarity/opposition 8.3 
+## Connections via similarity/opposition 
 416. **MESA: boost ensemble imbalanced learning with meta-sampler.**<br>
 *Liu, Zhining and Wei, Pengfei and Jiang, Jing and Cao, Wei and Bian, Jiang and Chang, Yi.*<br>
 NeurIPS 2020. [[Paper](https://proceedings.neurips.cc/paper/2020/file/a64bd53139f71961c5c31a9af03d775e-Paper.pdf)]
 417. **Background data resampling for outlier-aware classification.**<br>
 *Li, Yi and Vasconcelos, Nuno.*<br>
 CVPR 2020. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Background_Data_Resampling_for_Outlier-Aware_Classification_CVPR_2020_paper.pdf)]
-## Connections via theory 8.4 
+## Connections via theory 
 418. **Which Samples Should Be Learned First: Easy or Hard?**<br>
 *Which Samples Should Be Learned First: Easy or Hard?*<br>
 TNNLS 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10155763)]
@@ -1371,8 +1367,8 @@ NeurIPS 2022. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/fil
 422. **Understanding the role of importance weighting for deep learning.**<br>
 *Xu, Da and Ye, Yuting and Ruan, Chuanwei.*<br>
 arXiv 2021. [[Paper](https://arxiv.org/abs/2103.15209)]  
-# Future Directions 9                                                                           
-## Principles of data optimization 9.1
+# Future Directions                                                                           
+## Principles of data optimization
 423. **Why resampling outperforms reweighting for correcting sampling bias with stochastic gradients.**<br>
 *An, Jing and Ying, Lexing and Zhu, Yuhua.*<br>
 ICLR 2021. [[Paper](https://openreview.net/pdf?id=iQQK02mxVIT)]
@@ -1412,7 +1408,7 @@ ICLR 2021. [[Paper](https://openreview.net/pdf?id=g11CZSghXyY)]
 435. **Does label smoothing mitigate label noise?**<br>
 *Lukasik, Michal and Bhojanapalli, Srinadh and Menon, Aditya and Kumar, Sanjiv.*<br>
 ICML 2020. [[Paper](https://proceedings.mlr.press/v119/lukasik20a/lukasik20a.pdf)]                                   
-## Interpretable data optimization 9.2
+## Interpretable data optimization
 436. **Techniques for interpretable machine learning.**<br>
 *Du, Mengnan and Liu, Ninghao and Hu, Xia.*<br>
 Communications of the ACM 2019. [[Paper](https://dl.acm.org/doi/fullHtml/10.1145/3359786)]  
@@ -1422,7 +1418,7 @@ IEEE Journal of Selected Topics in Signal Processing 2023. [[Paper](https://ieee
 438. **Towards explaining the effects of data preprocessing on machine learning.**<br>
 *Zelaya, Carlos Vladimiro González.*<br>
 ICDE 2019. [[Paper](https://ieeexplore.ieee.org/abstract/document/8731532)]  
-## Human-in-the-loop data optimization 9.3
+## Human-in-the-loop data optimization
 439. **Human-in-the-loop machine learning: A state of the art.**<br>
 *Mosqueira-Rey, Eduardo and Hernández-Pereira, Elena and Alonso-Ríos, David and Bobes-Bascarán, José and Fernández-Leal, Ángel.*<br>
 Artificial Intelligence Review 2023. [[Paper](https://link.springer.com/article/10.1007/s10462-022-10246-w)]  
@@ -1435,7 +1431,7 @@ TACL 2019. [[Paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00279
 442. **Estimating example difficulty using variance of gradients.**<br>
 *Agarwal, Chirag and D'souza, Daniel and Hooker, Sara.*<br>
 CVPR 2022. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Agarwal_Estimating_Example_Difficulty_Using_Variance_of_Gradients_CVPR_2022_paper.pdf)]  
-## Data optimization for new challenges 9.4   
+## Data optimization for new challenges   
 443. **Ngc: A unified framework for learning with open-world noisy data.**<br>
 *Wu, Zhi-Fan and Wei, Tong and Jiang, Jianwen and Mao, Chaojie and Tang, Mingqian and Li, Yu-Feng.*<br>
 ICCV 2021. [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_NGC_A_Unified_Framework_for_Learning_With_Open-World_Noisy_Data_ICCV_2021_paper.pdf)] 
@@ -1460,7 +1456,7 @@ TPAMI 2019. [[Paper](https://ieeexplore.ieee.org/abstract/document/8269806)]
 450. **Learning Robust Multi-Modal Representation for Multi-Label Emotion Recognition via Adversarial Masking and Perturbation.**<br>
 *Ge, Shiping and Jiang, Zhiwei and Cheng, Zifeng and Wang, Cong and Yin, Yafeng and Gu, Qing.*<br>
 WWW 2023. [[Paper](https://cs.nju.edu.cn/_upload/tpl/02/e0/736/template736/YinPaper/WWW2023Ge.pdf)] 
-## Data optimization agent 9.5 
+## Data optimization agent 
 451. **Automatic data augmentation via invariance-constrained learning.**<br>
 *Hounie, Ignacio and Chamon, Luiz FO and Ribeiro, Alejandro.*<br>
 ICML 2023. [[Paper](https://proceedings.mlr.press/v202/hounie23a/hounie23a.pdf)] 
